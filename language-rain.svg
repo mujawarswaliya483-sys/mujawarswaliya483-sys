@@ -323,7 +323,7 @@
   />
 
   <!-- Replace this text with your initials -->
-  <text
+  <!-- <text
     x="600"
     y="160"
     text-anchor="middle"
@@ -331,13 +331,15 @@
     font-size="27"
     font-weight="bold"
     fill="#FFFFFF"
+    </text> -->
   <image
     href="swaliya.jpeg"
     x="500"
     y="120"
     width="200"
     height="200"
-/></text>
+    preserveAspectRatio="xMidYMid slice"
+/>
 
   <!-- Central glow -->
   <circle
