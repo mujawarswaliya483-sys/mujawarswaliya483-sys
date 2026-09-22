@@ -382,6 +382,13 @@
     font-weight="600"
     fill="#C9D1D9"
   >
+    <image
+  href="assets/swaliya.jpeg"
+  x="500"
+  y="50"
+  width="200"
+  height="200"
+/>
     BUILD • LEARN • EXPERIMENT • IMPROVE
   </text>
 
