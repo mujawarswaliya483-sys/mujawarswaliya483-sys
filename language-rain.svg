@@ -1,0 +1,378 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="300"
+  viewBox="0 0 1200 300"
+  role="img"
+  aria-label="M Swaliya developer profile"
+>
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6C63FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#8B7CFF"/>
+      <stop offset="100%" stop-color="#6C63FF" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect
+    width="1200"
+    height="300"
+    rx="18"
+    fill="url(#bg)"
+  />
+
+  <!-- subtle grid -->
+  <g opacity="0.08" stroke="#FFFFFF">
+
+    <path d="M0 50H1200"/>
+    <path d="M0 100H1200"/>
+    <path d="M0 150H1200"/>
+    <path d="M0 200H1200"/>
+    <path d="M0 250H1200"/>
+
+    <path d="M100 0V300"/>
+    <path d="M200 0V300"/>
+    <path d="M300 0V300"/>
+    <path d="M400 0V300"/>
+    <path d="M500 0V300"/>
+    <path d="M600 0V300"/>
+    <path d="M700 0V300"/>
+    <path d="M800 0V300"/>
+    <path d="M900 0V300"/>
+    <path d="M1000 0V300"/>
+    <path d="M1100 0V300"/>
+
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- FLOATING TECHNOLOGY "RAIN"                            -->
+  <!-- ===================================================== -->
+
+  <!-- React -->
+  <g transform="translate(110,-20)" filter="url(#glow)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="30"
+      fill="#61DAFB"
+      font-weight="bold"
+    >⚛</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="110 -30; 125 330"
+      dur="7s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(260,-50)">
+    <rect
+      x="0"
+      y="0"
+      width="34"
+      height="34"
+      rx="4"
+      fill="#F7DF1E"
+    />
+
+    <text
+      x="17"
+      y="24"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="17"
+      font-weight="bold"
+      fill="#111111"
+    >JS</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="260 -50; 285 330"
+      dur="8s"
+      begin="-3s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- Node -->
+  <g transform="translate(410,-30)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="22"
+      fill="#68A063"
+      font-weight="bold"
+    >NODE</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="410 -30; 395 330"
+      dur="9s"
+      begin="-5s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- C -->
+  <g transform="translate(570,-50)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="34"
+      fill="#659AD2"
+      font-weight="bold"
+    >C</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="570 -50; 560 330"
+      dur="6s"
+      begin="-2s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- MongoDB -->
+  <g transform="translate(730,-30)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="20"
+      fill="#47A248"
+      font-weight="bold"
+    >MONGO</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="730 -30; 755 330"
+      dur="10s"
+      begin="-6s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- HTML -->
+  <g transform="translate(900,-40)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="23"
+      fill="#E34F26"
+      font-weight="bold"
+    >&lt;/&gt;</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="900 -40; 875 330"
+      dur="7s"
+      begin="-1s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+  <!-- CSS -->
+  <g transform="translate(1040,-60)">
+    <text
+      x="0"
+      y="0"
+      font-family="monospace"
+      font-size="25"
+      fill="#1572B6"
+      font-weight="bold"
+    >CSS</text>
+
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      values="1040 -60; 1060 330"
+      dur="8s"
+      begin="-4s"
+      repeatCount="indefinite"
+    />
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- SECONDARY FLOATING SYMBOLS                            -->
+  <!-- ===================================================== -->
+
+  <g opacity="0.8">
+
+    <text x="180" y="70" font-size="16" fill="#6C63FF">{"{}"}</text>
+    <text x="340" y="180" font-size="14" fill="#61DAFB">&lt;/&gt;</text>
+    <text x="830" y="90" font-size="15" fill="#F7DF1E">JS</text>
+    <text x="970" y="190" font-size="14" fill="#68A063">npm</text>
+    <text x="60" y="220" font-size="13" fill="#E34F26">HTML</text>
+    <text x="1130" y="230" font-size="14" fill="#1572B6">CSS</text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- DECORATIVE CURVE                                     -->
+  <!-- ===================================================== -->
+
+  <path
+    d="M20 190
+       C180 150,
+       290 230,
+       430 185
+       S700 150,
+       840 185
+       S1080 225,
+       1180 175"
+    fill="none"
+    stroke="url(#line)"
+    stroke-width="2"
+    opacity="0.8"
+  />
+
+  <!-- moving light -->
+  <circle
+    cx="100"
+    cy="190"
+    r="4"
+    fill="#FFFFFF"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="cx"
+      values="100;1100;100"
+      dur="9s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ===================================================== -->
+  <!-- CENTRAL PROFILE ORBIT                                -->
+  <!-- ===================================================== -->
+
+  <circle
+    cx="600"
+    cy="150"
+    r="58"
+    fill="none"
+    stroke="#6C63FF"
+    stroke-width="2"
+    opacity="0.25"
+  />
+
+  <circle
+    cx="600"
+    cy="150"
+    r="48"
+    fill="none"
+    stroke="#8B7CFF"
+    stroke-width="2"
+    stroke-dasharray="4 7"
+  >
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 600 150"
+      to="360 600 150"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- Avatar circle -->
+  <circle
+    cx="600"
+    cy="150"
+    r="38"
+    fill="#161B22"
+    stroke="#FFFFFF"
+    stroke-width="2"
+  />
+
+  <!-- Replace this text with your initials -->
+  <text
+    x="600"
+    y="160"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="27"
+    font-weight="bold"
+    fill="#FFFFFF"
+  >MS</text>
+
+  <!-- Central glow -->
+  <circle
+    cx="600"
+    cy="150"
+    r="44"
+    fill="none"
+    stroke="#6C63FF"
+    stroke-width="1"
+    opacity="0.5"
+  >
+    <animate
+      attributeName="r"
+      values="42;50;42"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+
+    <animate
+      attributeName="opacity"
+      values="0.3;0.8;0.3"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+
+  <!-- ===================================================== -->
+  <!-- BOTTOM TEXT                                           -->
+  <!-- ===================================================== -->
+
+  <text
+    x="600"
+    y="255"
+    text-anchor="middle"
+    font-family="Arial, sans-serif"
+    font-size="17"
+    font-weight="600"
+    fill="#C9D1D9"
+  >
+    BUILD • LEARN • EXPERIMENT • IMPROVE
+  </text>
+
+</svg>
