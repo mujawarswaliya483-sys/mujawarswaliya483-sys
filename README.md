@@ -5,7 +5,7 @@
 <!-- ========================================================= -->
 
 <img
-  src="./assets/language-rain.svg"
+  src="./language-rain.svg"
   width="100%"
   alt="M_Swaliya Developer Profile"
 />
