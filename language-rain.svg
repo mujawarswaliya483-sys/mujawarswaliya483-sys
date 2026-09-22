@@ -331,7 +331,13 @@
     font-size="27"
     font-weight="bold"
     fill="#FFFFFF"
-  >MS</text>
+  <image
+    href="swaliya.jpeg"
+    x="500"
+    y="120"
+    width="200"
+    height="200"
+/></text>
 
   <!-- Central glow -->
   <circle
