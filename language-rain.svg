@@ -313,32 +313,34 @@
   </circle>
 
   <!-- Avatar circle -->
-  <circle
-    cx="600"
-    cy="150"
-    r="38"
-    fill="#161B22"
-    stroke="#FFFFFF"
-    stroke-width="2"
-  />
+  
+<defs>
+  <clipPath id="avatarClip">
+    <circle
+      cx="600"
+      cy="150"
+      r="38"
+    />
+  </clipPath>
+</defs>
 
-  <!-- Replace this text with your initials -->
-  <!-- <text
-    x="600"
-    y="160"
-    text-anchor="middle"
-    font-family="Arial, sans-serif"
-    font-size="27"
-    font-weight="bold"
-    fill="#FFFFFF"
-    </text> -->
-  <image
-    href="C:\Users\HP\Downloads\swaliya.jpeg"
-    x="500"
-    y="120"
-    width="200"
-    height="200"
-    preserveAspectRatio="xMidYMid slice"
+<image
+  href="swaliya.jpeg"
+  x="562"
+  y="112"
+  width="76"
+  height="76"
+  preserveAspectRatio="xMidYMid slice"
+  clip-path="url(#avatarClip)"
+/>
+
+<circle
+  cx="600"
+  cy="150"
+  r="38"
+  fill="none"
+  stroke="#FFFFFF"
+  stroke-width="2"
 />
 
   <!-- Central glow -->
