@@ -210,19 +210,16 @@ I'm building it while exploring full-stack development, application architecture
 
 <td width="50%" valign="top">
 
-## 🏠 Wondurlust
+## KRISHILENSE
 
 A full-stack web development project involving listings, routing, database operations and server-side rendering.
 
 ### Tech
 
-- Node.js
-- Express.js
-- MongoDB
-- EJS
-- RESTful Architecture
+- PYTHON
+- KAGAL
 
-<a href="https://github.com/mujawarswaliya483-sys/MAJOR-PROJECT">
+<a href="">
 <img src="https://img.shields.io/badge/VIEW%20PROJECT-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="View Wondurlust"/>
 </a>
 
@@ -243,6 +240,8 @@ Some of the areas I'm building and experimenting with:
 - 📝 Resume builder concepts
 - 🌐 Full-stack CRUD applications
 - 🔥 JavaScript projects
+- &#8962;  wondurlust
+- lumi
 
 <p align="center">
 
