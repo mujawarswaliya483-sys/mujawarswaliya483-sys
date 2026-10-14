@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Swaliya — learning by building</title>
+  <desc id="desc">A simple dark green banner with quiet linework and a soft sage accent.</desc>
+  <rect width="1200" height="260" rx="16" fill="#151b17"/>
+  <rect x="0" y="0" width="9" height="260" rx="4" fill="#b6cf91"/>
+  <g fill="none" stroke="#667965" stroke-width="1" opacity="0.28">
+    <path d="M710 0V260M770 0V260M830 0V260M890 0V260M950 0V260M1010 0V260M1070 0V260M1130 0V260"/>
+    <path d="M680 40H1200M680 80H1200M680 120H1200M680 160H1200M680 200H1200M680 240H1200"/>
+  </g>
+  <g fill="none" stroke="#b6cf91" stroke-width="1.5" opacity="0.65">
+    <path d="M765 187L840 112L915 159L1000 75L1080 124L1160 54"/>
+    <circle cx="765" cy="187" r="4" fill="#b6cf91"/>
+    <circle cx="840" cy="112" r="4" fill="#b6cf91"/>
+    <circle cx="915" cy="159" r="4" fill="#b6cf91"/>
+    <circle cx="1000" cy="75" r="4" fill="#b6cf91"/>
+    <circle cx="1080" cy="124" r="4" fill="#b6cf91"/>
+    <circle cx="1160" cy="54" r="4" fill="#b6cf91"/>
+  </g>
+  <text x="70" y="78" fill="#b6cf91" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">COMPUTER SCIENCE · WEB DEVELOPMENT</text>
+  <text x="66" y="153" fill="#f1f0e8" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="58" letter-spacing="-1.5">Swaliya Mijawar</text>
+  <text x="70" y="198" fill="#c0c8bc" font-family="Arial, Helvetica, sans-serif" font-size="22">Learning by building, one project at a time.</text>
+  <path d="M70 224H330" stroke="#b6cf91" stroke-width="2"/>
+</svg>
