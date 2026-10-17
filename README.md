@@ -18,11 +18,15 @@
 
 <!-- ACTION BADGES & VERIFIED SOCIAL TELEMETRY -->
 <p>
+  <a href="https://www.instagram.com/kitka.t483?dlrf=M3kwbGk0ejU1bHM5">
+    <img src="https://img.shields.io/badge/Instagram-kitka.t483-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=080B12" alt="Instagram" />
+  </a>
+  &nbsp;
   <a href="https://github.com/mujawarswaliya483-sys">
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="mujawarswaliya483gmail.com">
+  <a href="mailto:mujawarswaliya483@gmail.com">
     <img src="https://img.shields.io/badge/Email-swaliya.mujawar-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email" />
   </a>
   &nbsp;
@@ -591,6 +595,10 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
   <img src="https://img.shields.io/badge/LinkedIn-Swaliya_Mujawar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=080B12" alt="LinkedIn" />
 </a>
 &nbsp;&nbsp;
+<a href="https://www.instagram.com/kitka.t483?dlrf=M3kwbGk0ejU1bHM5">
+  <img src="https://img.shields.io/badge/Instagram-kitka.t483-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=080B12" alt="Instagram" />
+</a>
+&nbsp;&nbsp;
 <a href="https://github.com/mujawarswaliya483-sys">
   <img src="https://img.shields.io/badge/GitHub-mujawarswaliya483--sys-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub" />
 </a>
@@ -598,6 +606,7 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
 <br/><br/>
 
 <p>
+  <a href="https://www.instagram.com/kitka.t483?dlrf=M3kwbGk0ejU1bHM5"><strong>Instagram:</strong> @kitka.t483</a> • 
   <a href="https://www.leetcode.com/swaliya_mujawar"><strong>LeetCode:</strong> swaliya_mujawar</a> • 
   <a href="https://www.hackerrank.com/mujawarswaliya41"><strong>HackerRank:</strong> mujawarswaliya41</a> • 
   <a href="https://discord.gg/swaliyamujawar"><strong>Discord:</strong> swaliyamujawar</a>
@@ -611,6 +620,7 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
 ║   ⭐  If my projects inspire you, consider starring the repos!       ║
 ║   🤝  Open for SWE internships, full-stack builds & 3D experiments   ║
 ║   📧  mujawarswaliya483@gmail.com                                    ║
+║   📸  instagram.com/kitka.t483                                       ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
