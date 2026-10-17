@@ -13,7 +13,7 @@
 <h3>Full Stack Developer • Creative Developer • 3D Web Explorer</h3>
 
 <p>
-  <strong>Building functional full-stack web applications and crafting immersive, interactive 3D browser experiences.</strong>
+  <strong>Building scalable, user-focused full-stack applications and engineering immersive 3D web experiences that blend modern technology, creative design, and interactive storytelling.</strong>
 </p>
 
 <!-- ACTION BADGES & VERIFIED SOCIAL TELEMETRY -->
@@ -22,7 +22,7 @@
     <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="mailto:swaliya.mujawar@gmail.com">
+  <a href="mujawarswaliya483gmail.com">
     <img src="https://img.shields.io/badge/Email-swaliya.mujawar-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email" />
   </a>
   &nbsp;
@@ -325,10 +325,12 @@ Focus: Empathic UX & State Design
 ---
 
 ### 🌐 03. Wondurlust &amp; Web Explorations
-> *Hands-on full-stack CRUD applications exploring server-side routing, database persistence, authentication, and layout architecture.*
+> *Learning by building — exploring full-stack web development concepts through practice projects, experimentation, and iterative development.*
 
-- **Wondurlust:** Full-stack web application exploring database models, dynamic server-side rendering, REST routes, and listing management.
-- **Foundation Projects:** Interactive JavaScript tools, responsive landing page architectures, and DOM manipulation experiments.
+- **Wondurlust:** An ongoing learning project focused on understanding full-stack development concepts, including database modeling, server-side rendering, routing, and listing management.
+- **Foundation Projects:**  Practice projects exploring JavaScript fundamentals, DOM manipulation, interactive web tools, responsive layouts, and core web development principles..
+
+> *These projects are part of my hands-on learning journey, helping me strengthen my fundamentals and build practical development skills.*
 
 <br/>
 
@@ -376,19 +378,27 @@ Focus: Empathic UX & State Design
 </td>
 <td width="33%" valign="top">
 
-### 🏛️ DKTEWorld — 3D Campus Twin
-```
+### 🏛️ DKTEWorld — Interactive 3D Campus Twin
+
+> *A conceptual exploration of spatial web technology, reimagining campus discovery through immersive 3D visualization and interactive navigation.*
+
+```text
 ┌─────────────────────────────────┐
-│ STATUS: CONCEPTUAL RESEARCH     │
-│ DOMAIN: SPATIAL WEB & 3D        │
+│ STATUS: CONCEPT / RESEARCH      │
+│ DOMAIN: SPATIAL WEB & 3D         │
 └─────────────────────────────────┘
 ```
-**An interactive, sketch-styled 3D spatial model** of the DKTE college campus for incoming students, faculty, and visitors.
 
-- 🗺️ **Visual Campus Navigation:** Walkthrough departments, laboratories, classrooms, and offices in 3D space.
-- 🔎 **Smart Directory:** Interactive search for faculty cabins and lecture room timetables.
-- 🎨 **Stylized Low-Poly Aesthetics:** Custom sketch textures rendered without heavy GPU overhead.
-- 🛠️ **Planned Stack:** Three.js, WebGL, React, Blender.
+An envisioned, sketch-inspired 3D digital representation of the DKTE campus, designed to help prospective students, faculty, and visitors explore campus spaces through an interactive browser-based experience.
+
+- 🗺️ **Interactive Campus Exploration:** Envisioned 3D walkthroughs of academic departments, laboratories, classrooms, and administrative spaces.
+- 🔎 **Smart Campus Directory:** A proposed searchable directory for locating faculty offices, lecture rooms, and timetable information.
+- 🎨 **Stylized 3D Visual Design:** Exploring a hand-drawn, low-poly aesthetic with lightweight assets and performance-conscious rendering.
+- 🛠️ **Proposed Technology Stack:** Three.js, WebGL, React, and Blender.
+- 🚀 **Project Vision:** Investigating how interactive 3D environments could make campus navigation more engaging, intuitive, and accessible.
+
+*Currently in the conceptual research stage, with features and implementation details subject to exploration.*
+
 
 </td>
 </tr>
@@ -409,8 +419,6 @@ This visualization displays my **real, verified GitHub contribution history** re
 </div>
 
 - **Truthful Data Representation:** Every square corresponds to my actual contribution count and date range (Oct 2025 – Oct 2026), colored by authentic activity density (from dormant `#161B22` to peak emerald `#39D98A`).
-- **Aurora Circuit Layer:** Dual cyan (`#22D3EE`) and violet (`#8B5CF6`) light pulses weave along circuit traces connecting active contribution clusters.
-- **Central Telemetry Core:** A rotating nexus portal synchronizes the telemetry streams, with gentle glowing pulses illuminating high-activity nodes.
 
 <br/>
 
@@ -427,7 +435,7 @@ Recognizing that real engineering happens when solving non-trivial problems unde
 <td width="100%">
 
 ### 🥉 3rd Prize — Hackathon Competition
-- **Award:** 3rd Prize Winner
+- **Award:** 3rd Prize Winner || mock interview credits
 - **Focus:** Demonstrating practical software engineering, rapid problem solving, and effective product delivery.
 - **Outcome:** Validated team technical execution, system architecture, and interface design under competitive evaluation.
 
@@ -483,11 +491,18 @@ Maintaining an honest, verifiable record of academic studies, professional cours
   <img src="./assets/learning-roadmap.svg" width="100%" alt="Animated Learning Roadmap Progression" />
 </div>
 
-1. **Data Structures &amp; Algorithms using C++:** Daily disciplined problem solving focusing on memory management, pointers, recursion, trees, graphs, dynamic programming, and complexity analysis.
-2. **Interactive 3D Web &amp; Three.js:** Deepening understanding of browser WebGL rendering pipelines, scene graphs, custom `GLSL` shaders, and Blender glTF export workflows.
-3. **Blender &amp; 3D Modeling:** Learning low-poly asset modeling, texture optimization, and procedural animation for web integration.
-4. **Full-Stack Web Engineering:** Building modular, production-ready web applications with React 19, Node.js, Express, and FastAPI.
-5. **Containerization &amp; DevOps:** Containerizing multi-tier web services with Docker, exploring Kubernetes cluster concepts, and building automated CI/CD testing pipelines with GitHub Actions.
+
+1. **Data Structures & Algorithms with C++:** Strengthening problem-solving skills through consistent practice, exploring pointers, memory management, recursion, trees, graphs, dynamic programming, and time and space complexity.
+
+2. **Interactive 3D Web Development:** Exploring Three.js and WebGL to create immersive browser experiences, with a focus on 3D rendering, scene graphs, custom GLSL shaders, and Blender-to-web asset workflows using glTF.
+
+3. **Blender & 3D Content Creation:** Developing skills in 3D modeling, low-poly asset creation, texturing, procedural techniques, and animation optimized for interactive web experiences.
+
+4. **Full-Stack Web Engineering:** Expanding practical knowledge of end-to-end application development, including React, Node.js, Express, and FastAPI, with an emphasis on modular architecture, API integration, maintainability, and responsive user experiences.
+
+5. **Cloud-Native Development & DevOps:** Learning to containerize applications with Docker, understand Kubernetes orchestration, and build automated testing and CI/CD workflows using GitHub Actions.
+
+> *My goal is to turn continuous learning into practical projects, combining strong engineering fundamentals with creative, interactive web experiences.*
 
 <br/>
 
@@ -509,6 +524,7 @@ I structure my learning systematically. Every major project passes through five 
 - 💻 **[CPP-basics-and-oop-concepts](https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts):** Daily problem-solving, C++ OOP implementations, operator overloading, inheritance hierarchies, and memory management.
 - 🌐 **[web-dev-journey](https://github.com/mujawarswaliya483-sys/web-dev-journey):** Hands-on modular experiments across frontend layouts, DOM manipulation, asynchronous JavaScript, and backend integration.
 
+**<button></button>
 <br/>
 
 <div align="center">
@@ -548,7 +564,7 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
 
 <div align="center">
 
-<a href="mailto:swaliya.mujawar@gmail.com">
+<a href="mailto:mujawarswaliya483@gmail.com">
   <img src="https://img.shields.io/badge/Email-swaliya.mujawar%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email Swaliya" />
 </a>
 &nbsp;&nbsp;
@@ -575,14 +591,14 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
 ║                                                                      ║
 ║   ⭐  If my projects inspire you, consider starring the repos!       ║
 ║   🤝  Open for SWE internships, full-stack builds & 3D experiments   ║
-║   📧  swaliya.mujawar@gmail.com                                      ║
+║   📧  mujawarswaliya483@gmail.com                                    ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 <br/>
 
-<sub>Crafted with code craft, creative ambition, and genuine passion for building software.</sub>
+<sub>Crafted with engineering precision, creative curiosity, and a passion for turning ideas into meaningful digital experiences.</sub>
 
 </div>
 
