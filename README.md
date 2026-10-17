@@ -129,37 +129,39 @@ Interactive 3D websites represent the future of web interfaces. I am actively co
 
 ## 🛠️ Technical Stack & Capabilities
 
-I prioritize transparency: distinguishing daily working tools from technologies I am actively learning.
+I believe in showcasing skills with transparency. This section highlights the technologies I use in development, the tools I’m comfortable working with, and the areas I’m actively exploring as I grow as an engineer.
 
 ### 💻 Core Programming Languages
 <p align="left">
   <img src="https://skillicons.dev/icons?i=cpp,c,js,py,html,css&theme=dark&perline=6" alt="Languages" />
 </p>
 
-- `C++` &amp; `C` — Object-oriented architecture, pointers, memory concepts, algorithmic problem solving.
-- `JavaScript (ES6+)` — Asynchronous event loops, functional closures, DOM manipulation.
-- `Python` — API prototyping with FastAPI, data manipulation, automation.
-- `HTML5` &amp; `CSS3` — Semantic hierarchy, flexbox/grid mechanics, responsive media queries.
+- `C++` &amp; `C` —  Building programming fundamentals, exploring object-oriented programming, pointers, memory concepts, and algorithmic problem-solving.
+- `JavaScript (ES6+)` —  Working with asynchronous programming, closures, array methods, DOM manipulation, and interactive web functionality.
+
+- `HTML5` &amp; `CSS3` — Creating semantic page structures, responsive layouts, and accessible, visually consistent interfaces.
 
 ### ⚛️ Frontend Architecture
 <p align="left">
   <img src="https://skillicons.dev/icons?i=react,tailwind,vite,bootstrap,figma&theme=dark&perline=5" alt="Frontend" />
 </p>
 
-- `React` (React 19) — Component trees, hooks, custom state machines, unidirectional data flows.
-- `Tailwind CSS` (Tailwind v4) — Utility-first styling, design token systems, micro-animations.
-- `Vite` — Fast module bundling, HMR, and build optimization.
-- `Bootstrap` — Rapid prototyping and responsive grid layouts.
+- `React`—  Developing component-based interfaces using hooks, reusable components, and predictable state management.
+- `Tailwind CSS` — Building responsive interfaces with utility-first styling and consistent design patterns.
+- `Vite` — Streamlining frontend development with fast startup, hot module replacement, and optimized production builds.
+- `Bootstrap` — Prototyping responsive interfaces using reusable components and grid layouts.
 
 ### 🧩 Backend, APIs &amp; Databases
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql&theme=dark&perline=5" alt="Backend &amp; DB" />
 </p>
 
-- `Node.js` &amp; `Express.js` — RESTful API routing, middleware pipelines, error handling.
-- `FastAPI (Python)` — High-performance asynchronous endpoints, OpenAPI documentation, model integration.
-- `MongoDB` &amp; `Mongoose` — Document schema design, aggregation pipelines, CRUD persistence.
-- `MySQL` — Relational table schemas, foreign key constraints, relational queries.
+- `Node.js` &amp; `Express.js` — Building RESTful APIs, handling HTTP requests, organizing routes and middleware, and implementing server-side application logic.
+REST API Development — Connecting frontend interfaces with backend services through structured endpoints, HTTP methods, and JSON data exchange.
+
+`MongoDB`  &amp; `Mongoose` — Exploring document-based data modeling, schema validation, CRUD operations, and database integration.
+
+`MySQL` — Working with relational data, SQL queries, table relationships, and database fundamentals.
 
 ### 🎨 Creative Development &amp; 3D *(Actively Learning &amp; Exploring)*
 <p align="left">
@@ -174,21 +176,40 @@ I prioritize transparency: distinguishing daily working tools from technologies 
   <img src="https://img.shields.io/badge/GLSL_Shaders-22D3EE?style=for-the-badge&labelColor=080B12" alt="GLSL" />
 </p>
 
-- `Three.js & WebGL` — 3D scene construction, mesh geometry, material lighting, camera movement.
-- `Blender` — 3D asset modeling, low-poly environmental sketch designs, glTF pipeline.
-- `Motion & Creative Coding` — CSS keyframe physics, canvas particle systems, UI micro-interactions.
+`Three.js` &amp;`WebGL` — Exploring 3D scenes, geometry, materials, lighting, cameras, and interactive browser rendering.
+
+`Blender` — Learning 3D modeling, low-poly asset creation, texturing, animation, and exporting assets for web experiences.
+
+`Creative Coding` &amp; `Motion` — Experimenting with CSS animations, canvas effects, particle systems, and interactive UI details.
+
+`3D Web Workflows` — Exploring how optimized 3D assets and real-time rendering can enhance modern web applications.
 
 ### 🔧 DevOps, Cloud &amp; Engineering Tools
 <p align="left">
   <img src="https://skillicons.dev/icons?i=git,github,linux,docker,kubernetes,vscode,postman&theme=dark&perline=7" alt="DevOps Tools" />
 </p>
 
-- `Git & GitHub` — Version control, feature branching, pull request workflows.
-- `Linux` — Command-line navigation, shell scripting, environment configuration.
-- `Docker` *(Basics)* — Containerizing full-stack services, Dockerfile configurations.
-- `Kubernetes & CI/CD` *(In Progress)* — Container orchestration concepts, automated testing with GitHub Actions.
-- `Postman` — API contract verification, payload testing, endpoint debugging.
+`Git` &amp; `GitHub` — Managing source code, tracking changes, maintaining repositories, and collaborating through version control.
 
+`VS Code & Linux` — Using development tools, command-line workflows, and environment configuration.
+
+`Postman` — Testing REST API endpoints, validating request and response payloads, and debugging API behavior.
+
+`Docker` — Learning & Practicing — Exploring containerization, Dockerfiles, images, and application environments.
+
+`Kubernetes & CI/CD` — In Progress — Learning container orchestration fundamentals and automated workflows with GitHub Actions.
+
+**🌱 Currently Learning**
+
+`Python` — Building programming fundamentals and learning syntax, data structures, and problem-solving.
+
+`Data Structures` &amp; `Algorithms with C++` — Strengthening logical thinking, algorithm design, and time and space complexity analysis.
+
+`Advanced 3D Web Development` — Progressively exploring shader programming, rendering optimization, and Blender-to-web workflows.
+
+`Cloud-Native Engineering` — Expanding knowledge of containerization, orchestration, and CI/CD automation.
+
+>*Focused on learning by building, strengthening engineering fundamentals, and turning ideas into practical, user-focused digital experiences.*
 <br/>
 
 <div align="center">
