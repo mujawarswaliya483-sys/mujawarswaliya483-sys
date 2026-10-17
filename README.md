@@ -400,17 +400,17 @@ Focus: Empathic UX & State Design
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-## 🌌 Original Contribution Animation — Aurora Circuit
+## 🌌 My GitHub Contributions — Aurora Circuit
 
-Inspired by the visual rhythm of contribution activity, **Aurora Circuit** reimagines git telemetry as energy pulses traveling through a living digital constellation.
+This visualization displays my **real, verified GitHub contribution history** retrieved directly from my GitHub profile (`mujawarswaliya483-sys`), layered with the **Aurora Circuit** dynamic energy trail animation.
 
 <div align="center">
-  <img src="./assets/aurora-circuit.svg" width="100%" alt="Aurora Circuit — Original Interactive Contribution Animation" />
+  <img src="./assets/aurora-circuit.svg" width="100%" alt="Aurora Circuit — Real GitHub Contribution Calendar Telemetry for mujawarswaliya483-sys" />
 </div>
 
-- **The Concept:** A calendar matrix where active emerald cells represent verified contributions.
-- **The Dynamics:** Dual luminous cyan (`#22D3EE`) and electric violet (`#8B5CF6`) energy pulses weave along circuit paths across the grid.
-- **Central Nexus:** A rotating core portal at the center links data tracks, releasing periodic light ripples across adjacent nodes.
+- **Truthful Data Representation:** Every square corresponds to my actual contribution count and date range (Oct 2025 – Oct 2026), colored by authentic activity density (from dormant `#161B22` to peak emerald `#39D98A`).
+- **Aurora Circuit Layer:** Dual cyan (`#22D3EE`) and violet (`#8B5CF6`) light pulses weave along circuit traces connecting active contribution clusters.
+- **Central Telemetry Core:** A rotating nexus portal synchronizes the telemetry streams, with gentle glowing pulses illuminating high-activity nodes.
 
 <br/>
 
@@ -418,7 +418,7 @@ Inspired by the visual rhythm of contribution activity, **Aurora Circuit** reima
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-## 🏆 Hackathons &amp; Innovation
+## 🏆 Hackathons &amp; Achievements
 
 Recognizing that real engineering happens when solving non-trivial problems under tight deadlines.
 
@@ -426,33 +426,35 @@ Recognizing that real engineering happens when solving non-trivial problems unde
 <tr>
 <td width="100%">
 
+### 🥉 3rd Prize — Hackathon Competition
+- **Award:** 3rd Prize Winner
+- **Focus:** Demonstrating practical software engineering, rapid problem solving, and effective product delivery.
+- **Outcome:** Validated team technical execution, system architecture, and interface design under competitive evaluation.
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+### 🎗️ Arambh Hackathon Finalist
+- **Recognition:** Finalist Certificate
+- **Event:** Arambh Hackathon
+- **Contribution:** Advanced to the final evaluation round by conceptualizing and architecting solutions for real-world user challenges.
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
 ### 🌾 KrishiLens — Crop-to-Market Decision Support
-- **Event / Context:** Maharashtra Hackathon Innovation Challenge (Team AgriSathi)
+- **Context:** Maharashtra Hackathon Innovation Challenge (Team AgriSathi)
 - **Role:** Team Lead &amp; Full-Stack Developer
-- **Focus:** Farmer agricultural intelligence, harvest timing prediction, and mandi price advisory using 2017–2026 climate and market datasets.
-- **Output:** Functional multilingual prototype with React frontend and FastAPI backend service.
+- **Output:** Functional multilingual prototype connecting 2017–2026 climate and mandi datasets to recommend precise harvest dates to Maharashtra farmers.
 - **Repository:** [mujawarswaliya483-sys/krishilense](https://github.com/mujawarswaliya483-sys/krishilense)
 
 </td>
 </tr>
 </table>
-
-<!-- FUTURE HACKATHON ENTRY TEMPLATE (UNCOMMENT AND POPULATE AS COMPLETED):
-<table>
-<tr>
-<td width="100%">
-
-### 🚀 [Hackathon Name] — [Project Title]
-- **Event / Date:** [Organization / Month Year]
-- **Role:** [Your Role / Team Name]
-- **Problem Solved:** [1-2 sentences on what was built]
-- **Achievement / Placement:** [Winner / Finalist / Participant]
-- **Project Link:** [Repository or Demo Link]
-
-</td>
-</tr>
-</table>
--->
 
 <br/>
 
@@ -460,20 +462,14 @@ Recognizing that real engineering happens when solving non-trivial problems unde
   <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-## 📜 Certifications &amp; Learning Milestones
+## 📜 Certifications &amp; Learning
 
-Maintaining an honest record of completed academic courses and technical milestones.
+Maintaining an honest, verifiable record of academic studies, professional coursework, and technical milestones.
 
+- ☁️ **Azure Explore Learning:** Microsoft Azure cloud fundamentals, core cloud concepts, virtualization, and cloud resource architecture.
+- 🏅 **Arambh Hackathon Finalist:** Certificate recognizing finalist standing in the Arambh Hackathon innovation competition.
+- 🌐 **Web Development:** Comprehensive certification covering core web architecture, frontend responsiveness, and modern full-stack development patterns.
 - 🎓 **B.Tech Computer Science &amp; Engineering (Ongoing):** DKTE Society's Textile &amp; Engineering Institute — Focus on Object-Oriented Programming, Data Structures, Operating Systems, Database Management Systems, and Software Engineering.
-- 💻 **Modern Full-Stack Web Development:** Practical hands-on mastery through real applications (LUMI, KrishiLens, Wondurlust).
-- 🧠 **C++ Foundations &amp; Algorithms:** Systematic daily tracking of memory pointers, OOP hierarchies, and algorithmic problem solving.
-
-<!-- FUTURE CERTIFICATION TEMPLATE (UNCOMMENT AND POPULATE AS CERTIFICATES ARE EARNED):
-| Certificate Title | Issuing Organization | Completion Date | Verification Credential |
-| :--- | :--- | :--- | :--- |
-| [e.g. Meta Frontend Developer] | [Coursera / Meta] | [Month Year] | [Link to Verification] |
-| [e.g. AWS Certified Cloud Practitioner] | [Amazon Web Services] | [Month Year] | [Link to Verification] |
--->
 
 <br/>
 
@@ -484,13 +480,14 @@ Maintaining an honest record of completed academic courses and technical milesto
 ## 🎯 Current Focus &amp; Learning Roadmap
 
 ```text
-                  🌱 FOUNDATIONS ──► ⚛️ FULL-STACK ──► 🎨 3D WEB & SPATIAL
+       🧠 C++ DSA ──► ⚛️ FULL-STACK WEB ──► 🐳 DOCKER / K8S ──► 🎨 3D WEB & THREE.JS
 ```
 
-1. **Interactive 3D Web &amp; Three.js:** Deepening understanding of scene graph optimization, camera math, shader lighting, and Blender glTF pipelines.
-2. **Containerization &amp; DevOps:** Containerizing multi-tier applications with Docker and exploring Kubernetes cluster management.
-3. **Data Structures &amp; Algorithms:** Daily disciplined problem solving in C++ focusing on graphs, dynamic programming, and complexity analysis.
-4. **CI/CD Automation:** Setting up automated testing and deployment workflows using GitHub Actions.
+1. **Data Structures &amp; Algorithms using C++:** Daily disciplined problem solving focusing on memory management, pointers, recursion, trees, graphs, dynamic programming, and complexity analysis.
+2. **Interactive 3D Web &amp; Three.js:** Deepening understanding of browser WebGL rendering pipelines, scene graphs, custom `GLSL` shaders, and Blender glTF export workflows.
+3. **Blender &amp; 3D Modeling:** Learning low-poly asset modeling, texture optimization, and procedural animation for web integration.
+4. **Full-Stack Web Engineering:** Building modular, production-ready web applications with React 19, Node.js, Express, and FastAPI.
+5. **Containerization &amp; DevOps:** Containerizing multi-tier web services with Docker, exploring Kubernetes cluster concepts, and building automated CI/CD testing pipelines with GitHub Actions.
 
 <br/>
 
