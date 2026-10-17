@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-<h1>M_Swaliya</h1>
+<h1>⚡ M_Swaliya — Creative Developer</h1>
 
 <h3>Full Stack Developer • Creative Developer • 3D Web Explorer</h3>
 
@@ -44,8 +44,6 @@
 </p>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=mujawarswaliya483-sys&label=%E3%80%88+PROFILE+VIEWS+%2F%E3%80%89&color=8B5CF6&style=flat-square&labelColor=080B12" alt="Profile Views" />
-  &nbsp;
   <img src="https://img.shields.io/github/followers/mujawarswaliya483-sys?label=FOLLOWERS&style=flat-square&labelColor=080B12&color=22D3EE" alt="Followers" />
   &nbsp;
   <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_INTERNSHIPS-39D98A?style=flat-square&labelColor=080B12" alt="Internship Status" />
@@ -57,7 +55,7 @@
 
 </div>
 
-## 🌌 Developer Identity & Philosophy
+## 🌌 KNOW WHO I AM..!
 
 I am a second-year Computer Science Engineering student with an ambition that bridges **robust full-stack engineering** and **interactive 3D web experiences**. 
 
@@ -66,13 +64,13 @@ My goal is not merely to build standard web dashboards, but to create **memorabl
 ```json
 {
   "🧑‍💻 identity": "M_Swaliya (Swaliya Sajid Mujawar)",
-  "📍 location": "Maharashtra, India",
+  "📍 location": "Jaysingpur,kolhapur,Maharashtra, India",
   "🎓 degree": "B.Tech Computer Science & Engineering (2nd Year) — DKTE",
   "⚡ core_specialization": "Full-Stack Web Engineering + Interactive 3D Interfaces",
   "🎨 creative_pursuits": "Three.js, WebGL Shaders, Blender 3D Low-Poly Modeling & Motion Design",
   "🛠️ systems_foundation": "C, C++ (OOP & Data Structures), Linux Shell, Docker",
   "🏆 hackathon_lead": "KrishiLens — Agricultural Decision Support (Team AgriSathi)",
-  "💬 mantra": "BUILD • LEARN • CREATE • EXPLORE"
+  "💬 mantra": "DREAM • DESIGN • DEVELOP • DISCOVER"
 }
 ```
 
@@ -133,7 +131,7 @@ I believe in showcasing skills with transparency. This section highlights the te
 
 ### 💻 Core Programming Languages
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,c,js,py,html,css&theme=dark&perline=6" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=cpp,c,js,html,css&theme=dark&perline=6" alt="Languages" />
 </p>
 
 - `C++` &amp; `C` —  Building programming fundamentals, exploring object-oriented programming, pointers, memory concepts, and algorithmic problem-solving.
@@ -153,7 +151,7 @@ I believe in showcasing skills with transparency. This section highlights the te
 
 ### 🧩 Backend, APIs &amp; Databases
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql&theme=dark&perline=5" alt="Backend &amp; DB" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,restapi,mongodb,mysql&theme=dark&perline=5" alt="Backend &amp; DB" />
 </p>
 
 - `Node.js` &amp; `Express.js` — Building RESTful APIs, handling HTTP requests, organizing routes and middleware, and implementing server-side application logic.
@@ -288,12 +286,12 @@ Domain: Agri-Tech Intelligence
 
 ```
 ╔═════════════════════════════════════════════════════════════════════════════╗
-║  🌿 LUMI // HUMAN-CENTERED INTERACTION ARCHITECTURE                        ║
-║  ─────────────────────────────────────────────────────────────────────────  ║
-║  • Multi-Screen Flow: Home ➔ CheckIn ➔ Calm / CompanionRequest ➔ Consent    ║
+║  🌿 LUMI // HUMAN-CENTERED INTERACTION ARCHITECTURE                         ║
+║  ─────────────────────────────────────────────────────────────────────────   ║
+║  • Multi-Screen Flow: Home ➔ CheckIn ➔ Calm / CompanionRequest ➔ Consent   ║
 ║    ➔ ConnectOutcome ➔ ConversationEnded                                     ║
-║  • Built from scratch with React 19 + Tailwind CSS v4                       ║
-║  • Zero bloated templates; custom state transition mechanics                ║
+║  • Built from scratch with React 19 + Tailwind CSS v4                         ║
+║  • Zero bloated templates; custom state transition mechanics                 ║
 ║  • Accompanied by in-depth frontend study notebook analyzing component tree ║
 ╚═════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -545,7 +543,7 @@ I structure my learning systematically. Every major project passes through five 
 - 💻 **[CPP-basics-and-oop-concepts](https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts):** Daily problem-solving, C++ OOP implementations, operator overloading, inheritance hierarchies, and memory management.
 - 🌐 **[web-dev-journey](https://github.com/mujawarswaliya483-sys/web-dev-journey):** Hands-on modular experiments across frontend layouts, DOM manipulation, asynchronous JavaScript, and backend integration.
 
-**<button></button>
+
 <br/>
 
 <div align="center">
@@ -586,7 +584,7 @@ I am actively seeking **Software Engineering, Full-Stack Web, and Creative Devel
 <div align="center">
 
 <a href="mailto:mujawarswaliya483@gmail.com">
-  <img src="https://img.shields.io/badge/Email-swaliya.mujawar%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email Swaliya" />
+  <img src="https://img.shields.io/badge/Email-mujawarswaliya483@gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email Swaliya" />
 </a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/swaliya-mujawar">
