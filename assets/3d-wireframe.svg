@@ -1,0 +1,103 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 240"
+  width="100%"
+  height="auto"
+  role="img"
+  aria-label="3D Wireframe and Interactive Spatial Web Visualization"
+>
+  <defs>
+    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#080B12"/>
+    </linearGradient>
+
+    <linearGradient id="neonCyanViolet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#39D98A"/>
+    </linearGradient>
+
+    <filter id="meshGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 11px; font-weight: 700; }
+    .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #F3F4F6; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 11px; fill: #9CA3AF; }
+  </style>
+
+  <!-- Container -->
+  <rect width="800" height="240" rx="14" fill="url(#gridGrad)" stroke="#1F2937" stroke-width="1.5"/>
+
+  <!-- Left: 3D Wireframe Icosahedron Geometry with Rotation -->
+  <g transform="translate(140, 120)">
+    <!-- Ambient Orbital Rings -->
+    <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="4 6" opacity="0.4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="0" cy="0" rx="80" ry="70" fill="none" stroke="#22D3EE" stroke-width="0.8" stroke-dasharray="3 7" opacity="0.3">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Wireframe 3D Polyhedron Faces & Edges -->
+    <g filter="url(#meshGlow)">
+      <!-- Outer Hexagon Skeleton -->
+      <polygon points="0,-65 56,-32 56,32 0,65 -56,32 -56,-32" fill="none" stroke="#8B5CF6" stroke-width="1.5"/>
+      <!-- Inner Vertex Triangles -->
+      <polygon points="0,-65 0,35 -56,-32" fill="#8B5CF6" fill-opacity="0.08" stroke="#22D3EE" stroke-width="1.2"/>
+      <polygon points="0,-65 56,-32 0,35" fill="#22D3EE" fill-opacity="0.06" stroke="#22D3EE" stroke-width="1.2"/>
+      <polygon points="-56,-32 -56,32 0,35" fill="#39D98A" fill-opacity="0.05" stroke="#8B5CF6" stroke-width="1.2"/>
+      <polygon points="56,-32 56,32 0,35" fill="#8B5CF6" fill-opacity="0.08" stroke="#39D98A" stroke-width="1.2"/>
+      <polygon points="0,65 -56,32 0,35" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-width="1.2"/>
+      <polygon points="0,65 56,32 0,35" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1.2"/>
+
+      <!-- Glowing Vertices -->
+      <circle cx="0" cy="-65" r="3.5" fill="#22D3EE"/>
+      <circle cx="56" cy="-32" r="3.5" fill="#8B5CF6"/>
+      <circle cx="56" cy="32" r="3.5" fill="#22D3EE"/>
+      <circle cx="0" cy="65" r="3.5" fill="#39D98A"/>
+      <circle cx="-56" cy="32" r="3.5" fill="#8B5CF6"/>
+      <circle cx="-56" cy="-32" r="3.5" fill="#22D3EE"/>
+      <circle cx="0" cy="35" r="4.5" fill="#F3F4F6"/>
+    </g>
+
+    <!-- Animated Light Ray Sweep -->
+    <line x1="-70" y1="0" x2="70" y2="0" stroke="url(#neonCyanViolet)" stroke-width="1.5" opacity="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Right: 3D Web Core Pillars & Roadmap -->
+  <g transform="translate(280, 36)">
+    <rect x="0" y="0" width="480" height="168" rx="10" fill="#0D1117" stroke="#1F2937" stroke-width="1"/>
+
+    <!-- Pillar 1: Three.js & WebGL -->
+    <g transform="translate(24, 26)">
+      <circle cx="10" cy="10" r="6" fill="#8B5CF6"/>
+      <text x="26" y="14" class="label">Three.js &amp; WebGL Rendering</text>
+      <text x="26" y="32" class="sub">Scene graphs, camera controls, custom shaders, and lighting pipelines.</text>
+    </g>
+
+    <!-- Pillar 2: Blender & Modeling -->
+    <g transform="translate(24, 76)">
+      <circle cx="10" cy="10" r="6" fill="#22D3EE"/>
+      <text x="26" y="14" class="label">Blender 3D Modeling &amp; Low-Poly Assets</text>
+      <text x="26" y="32" class="sub">Asset creation, lightweight geometry optimization, and texture baking.</text>
+    </g>
+
+    <!-- Pillar 3: Interactive Experiences -->
+    <g transform="translate(24, 126)">
+      <circle cx="10" cy="10" r="6" fill="#39D98A"/>
+      <text x="26" y="14" class="label">Interactive Spatial Exploration (DKTEWorld)</text>
+      <text x="26" y="32" class="sub">Bridging React web applications with real-time 3D campus navigation.</text>
+    </g>
+  </g>
+</svg>

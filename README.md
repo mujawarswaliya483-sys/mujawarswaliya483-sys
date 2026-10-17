@@ -1,158 +1,258 @@
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--           SWALIYA MUJAWAR — DEVELOPER PROFILE README                  -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!-- ================================================================= -->
+<!--       M_SWALIYA — FULL-STACK & 3D CREATIVE DEVELOPER PORTFOLIO    -->
+<!-- ================================================================= -->
 
-<!-- HERO WAVE ANIMATION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f0c,35:122216,70:1a3a22,100:238636&height=280&section=header&text=%E3%80%88%20SWALIYA%20MUJAWAR%20%2F%20%E3%80%89&fontSize=48&fontColor=f0f6fc&animation=twinkling&fontAlignY=36&desc=FULL-STACK%20ENGINEER%20%E2%80%A2%20CSE%20STUDENT%20%E2%80%A2%20SOFTWARE%20BUILDER&descSize=15&descAlignY=58&descAlign=50&stroke=7ee787&strokeWidth=1" width="100%" alt="Swaliya Mujawar Header" />
-</div>
 
-<!-- GLITCH / DYNAMIC TYPING TITLE ANIMATION -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=26&duration=2400&pause=600&color=7EE787&center=true&vCenter=true&multiline=true&repeat=true&width=860&height=75&lines=%E2%96%88%E2%96%93%E2%96%92%E2%96%91+FULL-STACK+WEB+DEVELOPER+%E2%94%82+C%2B%2B+SYSTEMS+%E2%94%82+BUILDER+%E2%96%91%E2%96%92%E2%96%93%E2%96%88;%E2%96%88%E2%96%93%E2%96%92%E2%96%91+BUILDING+LUMI+%E2%94%82+KRISHILENS+%E2%94%82+AI+BUS+SYSTEM+%E2%96%91%E2%96%92%E2%96%93%E2%96%88" alt="Typing Title Animation" />
-</div>
+<img src="./rain.svg" width="100%" alt="M_Swaliya — Animated Technology Rain &amp; Creative Developer Hero Banner" />
 
-<!-- TERMINAL STATUS INITIALIZER -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=1600&pause=400&color=8FAD92&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=%5BSYSTEM%5D+User%3A+Swaliya+Mujawar+%7C+2nd-Year+CSE+%40+DKTE...;%5BSYSTEM%5D+Loading+LUMI+Wellbeing+Flow+(React+19+%2B+Tailwind+v4)...+%E2%9C%93;%5BSYSTEM%5D+Loading+KrishiLens+Harvest+Advisory+(FastAPI+%2B+React)...+%E2%9C%93;%5BSYSTEM%5D+Pipeline%3A+AI+Bus+Management+%2B+WebDev+AI+Toolkit...+%E2%9C%93;%5BSYSTEM%5D+Status%3A+Seeking+SWE+%26+Full-Stack+Internships.+Ready." alt="System Initializer" />
-</div>
+<br/><br/>
 
-<br/>
+<h1>M_Swaliya</h1>
 
-<!-- ANIMATED BADGE MATRIX -->
-<div align="center">
+<h3>Full Stack Developer • Creative Developer • 3D Web Explorer</h3>
+
+<p>
+  <strong>Building functional full-stack web applications and crafting immersive, interactive 3D browser experiences.</strong>
+</p>
+
+<!-- ACTION BADGES & VERIFIED SOCIAL TELEMETRY -->
+<p>
   <a href="https://github.com/mujawarswaliya483-sys">
-    <img src="https://img.shields.io/badge/%E3%80%88_GITHUB_%2F%E3%80%89-Profile-161b22?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:swaliya.mujawar@gmail.com">
+    <img src="https://img.shields.io/badge/Email-swaliya.mujawar-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/swaliya-mujawar">
-    <img src="https://img.shields.io/badge/%E3%80%88_LINKEDIN_%2F%E3%80%89-Connect-0A66C2?style=for-the-badge&labelColor=0d1117&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=080B12" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:mujawarswaliya483@gmail.com">
-    <img src="https://img.shields.io/badge/%E3%80%88_EMAIL_%2F%E3%80%89-Contact-238636?style=for-the-badge&labelColor=0d1117&logo=gmail&logoColor=7ee787" alt="Email" />
+  <a href="https://www.leetcode.com/swaliya_mujawar">
+    <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=080B12" alt="LeetCode" />
   </a>
   &nbsp;
-  <a href="https://github.com/mujawarswaliya483-sys?tab=repositories">
-    <img src="https://img.shields.io/badge/%E3%80%88_REPOSITORIES_%2F%E3%80%89-Explore-30363d?style=for-the-badge&labelColor=0d1117&logo=git&logoColor=white" alt="Repositories" />
+  <a href="https://www.hackerrank.com/mujawarswaliya41">
+    <img src="https://img.shields.io/badge/HackerRank-mujawarswaliya41-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black&labelColor=080B12" alt="HackerRank" />
   </a>
   &nbsp;
-  <a href="https://github.com/mujawarswaliya483-sys">
-    <img src="https://img.shields.io/github/followers/mujawarswaliya483-sys?label=FOLLOWERS&style=for-the-badge&labelColor=0d1117&color=238636&logo=github&logoColor=7ee787" alt="Followers" />
+  <a href="https://discord.gg/swaliyamujawar">
+    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=080B12" alt="Discord" />
   </a>
-</div>
+</p>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=mujawarswaliya483-sys&label=%E3%80%88+PROFILE+VIEWS+%2F%E3%80%89&color=8B5CF6&style=flat-square&labelColor=080B12" alt="Profile Views" />
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/mujawarswaliya483-sys?label=FOLLOWERS&style=flat-square&labelColor=080B12&color=22D3EE" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_INTERNSHIPS-39D98A?style=flat-square&labelColor=080B12" alt="Internship Status" />
+</p>
 
 <br/>
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+<img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+
 </div>
 
-<!-- ═══════════════════════════ ABOUT ME — TERMINAL ═══════════════════════════ -->
+## 🌌 Developer Identity & Philosophy
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Fabout_me;%E2%94%94%E2%94%80%E2%94%80%24+cat+profile.json" alt="About Me Header" />
-</div>
+I am a second-year Computer Science Engineering student with an ambition that bridges **robust full-stack engineering** and **interactive 3D web experiences**. 
 
-<br/>
+My goal is not merely to build standard web dashboards, but to create **memorable, visually compelling digital products** that fuse performant architecture with spatial computing, real-time animation, and creative coding.
 
 ```json
 {
-  "🧑‍💻 identity": "Swaliya Sajid Mujawar",
+  "🧑‍💻 identity": "M_Swaliya (Swaliya Sajid Mujawar)",
   "📍 location": "Maharashtra, India",
-  "🎓 education": "B.Tech Computer Science & Engineering (2nd Year) — DKTE",
-  "🎯 core_focus": "Full-Stack Web Development, Software Engineering & Systems",
-  "⚡ active_builds": [
-    "🌿 LUMI → Guided Mental Wellbeing Flow (React 19 + Tailwind CSS v4)",
-    "🌾 KrishiLens → Agricultural Harvest & Market Intelligence (Team Lead)"
-  ],
-  "🚀 upcoming_pipeline": [
-    "🚌 AI Bus Management System → Smart Transit Scheduling & Occupancy",
-    "🤖 WebDev AI Toolkit → Contextual Developer Workflow Accelerator",
-    "🏛️ DKTEWorld → Interactive 3D Sketch Campus Spatial Twin (Three.js)"
-  ],
-  "🔧 engineering_values": [
-    "Build real applications from first principles",
-    "Master the component tree & state machine before using AI shortcuts",
-    "Write maintainable, well-documented code that can be defended in depth"
-  ],
-  "💬 philosophy": "Learning by building, one deliberate project at a time."
+  "🎓 degree": "B.Tech Computer Science & Engineering (2nd Year) — DKTE",
+  "⚡ core_specialization": "Full-Stack Web Engineering + Interactive 3D Interfaces",
+  "🎨 creative_pursuits": "Three.js, WebGL Shaders, Blender 3D Low-Poly Modeling & Motion Design",
+  "🛠️ systems_foundation": "C, C++ (OOP & Data Structures), Linux Shell, Docker",
+  "🏆 hackathon_lead": "KrishiLens — Agricultural Decision Support (Team AgriSathi)",
+  "💬 mantra": "BUILD • LEARN • CREATE • EXPLORE"
 }
 ```
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
-</div>
-
-<!-- ═══════════════════════════ FEATURED PROJECTS ═══════════════════════════ -->
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Fprojects;%E2%94%94%E2%94%80%E2%94%80%24+git+status+--featured-builds" alt="Projects Header" />
-</div>
-
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%8C%BF_FEATURED-LUMI_WELLBEING-238636?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/%F0%9F%8C%BE_HACKATHON-KRISHILENS-2ea043?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/%F0%9F%94%84_STATUS-VERIFIED_BUILDS-1f6feb?style=for-the-badge&labelColor=0d1117" />
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 🎨 Exploring the 3D Web & Creative Computing
+
+Interactive 3D websites represent the future of web interfaces. I am actively combining my web development foundations with **creative coding, spatial UI, and 3D modeling in Blender**.
+
+<div align="center">
+  <img src="./assets/3d-wireframe.svg" width="100%" alt="3D Web Development Visualization" />
 </div>
 
 <br/>
-
-### 🌟 01. LUMI — Guided Emotional Wellbeing Experience
-> *A web application designed around conversational check-ins, intentional support selection, and calm user flows.*
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="33%" valign="top">
 
-```
-  ╔═══════════════════════════════════════════════════════╗
-  ║  🌿 LUMI ARCHITECTURAL HIGHLIGHTS                     ║
-  ║  ────────────────────────────────                     ║
-  ║  • Multi-Screen Flow: Home ➔ CheckIn ➔ Calm /        ║
-  ║    CompanionRequest ➔ Consent ➔ Connect ➔ End         ║
-  ║  • Built with React 19 + Tailwind CSS v4             ║
-  ║  • Zero UI templates; designed from scratch           ║
-  ║  • Frontend Study Notebook to master React mechanics  ║
-  ╚═══════════════════════════════════════════════════════╝
-```
-
-#### 🎯 Problem & Solution
-Standard mental health apps rely on sterile questionnaires or simple 1-to-5 sliders that leave overwhelmed users without direction. LUMI creates an empathetic, conversational flow that helps someone determine what kind of support they need in the exact moment—grounding breathing exercises or human connection.
-
-#### 🛠️ Direct Contribution
-- **Flow State Machine:** Engineered the full 7-stage client flow using custom state machines without external bloated libraries.
-- **Modern Stack:** Implemented cleanly with **React 19**, **Tailwind CSS v4**, and **Lucide React** under Vite.
-- **Deep Documentation:** Wrote and maintained `frontend-study-notebook.md` to analyze component lifecycles, prop passing, and state boundaries.
+### 🌐 Three.js &amp; WebGL
+- Experimenting with camera projections, ambient lighting, and scene graphs in the browser.
+- Learning shader fundamentals (`GLSL`) for dynamic visual ripples, particles, and holographic glows.
+- Integrating lightweight 3D canvas viewports inside React applications.
 
 </td>
-<td width="38%" valign="top">
+<td width="33%" valign="top">
 
-```yaml
-Repository: LUMI
-Stack: React 19, Tailwind v4
-Tooling: Vite, Oxlint
-Status: Active Frontend Prototype
-Architect: Swaliya Mujawar
-```
+### 🎨 Blender &amp; 3D Modeling
+- Modeling low-poly geometric environments and isometric structures.
+- Texture baking, mesh cleanup, and glTF/GLB export optimization for sub-second web load times.
+- Rigging simple mechanical assemblies and camera fly-through sequences.
+
+</td>
+<td width="33%" valign="top">
+
+### 🏛️ Spatial Web: DKTEWorld
+- Architectural concept for an interactive, sketch-styled digital twin of the DKTE college campus.
+- Real-time visual navigation through academic departments, labs, and faculty directories.
+- Blending Three.js spatial canvases with accessible HTML/React UI overlays.
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 <div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
 
-<a href="https://github.com/mujawarswaliya483-sys/LUMI">
-  <img src="https://img.shields.io/badge/%E3%80%88_EXPLORE_REPO_%2F%E3%80%89-LUMI-238636?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white" alt="View LUMI" />
+## 🛠️ Technical Stack & Capabilities
+
+I prioritize transparency: distinguishing daily working tools from technologies I am actively learning.
+
+### 💻 Core Programming Languages
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=cpp,c,js,py,html,css&theme=dark&perline=6" alt="Languages" />
+</p>
+
+- `C++` &amp; `C` — Object-oriented architecture, pointers, memory concepts, algorithmic problem solving.
+- `JavaScript (ES6+)` — Asynchronous event loops, functional closures, DOM manipulation.
+- `Python` — API prototyping with FastAPI, data manipulation, automation.
+- `HTML5` &amp; `CSS3` — Semantic hierarchy, flexbox/grid mechanics, responsive media queries.
+
+### ⚛️ Frontend Architecture
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,bootstrap,figma&theme=dark&perline=5" alt="Frontend" />
+</p>
+
+- `React` (React 19) — Component trees, hooks, custom state machines, unidirectional data flows.
+- `Tailwind CSS` (Tailwind v4) — Utility-first styling, design token systems, micro-animations.
+- `Vite` — Fast module bundling, HMR, and build optimization.
+- `Bootstrap` — Rapid prototyping and responsive grid layouts.
+
+### 🧩 Backend, APIs &amp; Databases
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql&theme=dark&perline=5" alt="Backend &amp; DB" />
+</p>
+
+- `Node.js` &amp; `Express.js` — RESTful API routing, middleware pipelines, error handling.
+- `FastAPI (Python)` — High-performance asynchronous endpoints, OpenAPI documentation, model integration.
+- `MongoDB` &amp; `Mongoose` — Document schema design, aggregation pipelines, CRUD persistence.
+- `MySQL` — Relational table schemas, foreign key constraints, relational queries.
+
+### 🎨 Creative Development &amp; 3D *(Actively Learning &amp; Exploring)*
+<p align="left">
+  <img src="https://img.shields.io/badge/Three.js-Black?style=for-the-badge&logo=three.js&logoColor=white&labelColor=080B12" alt="Three.js" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white&labelColor=080B12" alt="Blender" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white&labelColor=080B12" alt="WebGL" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/3D_Animation-8B5CF6?style=for-the-badge&labelColor=080B12" alt="3D Animation" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/GLSL_Shaders-22D3EE?style=for-the-badge&labelColor=080B12" alt="GLSL" />
+</p>
+
+- `Three.js & WebGL` — 3D scene construction, mesh geometry, material lighting, camera movement.
+- `Blender` — 3D asset modeling, low-poly environmental sketch designs, glTF pipeline.
+- `Motion & Creative Coding` — CSS keyframe physics, canvas particle systems, UI micro-interactions.
+
+### 🔧 DevOps, Cloud &amp; Engineering Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,docker,kubernetes,vscode,postman&theme=dark&perline=7" alt="DevOps Tools" />
+</p>
+
+- `Git & GitHub` — Version control, feature branching, pull request workflows.
+- `Linux` — Command-line navigation, shell scripting, environment configuration.
+- `Docker` *(Basics)* — Containerizing full-stack services, Dockerfile configurations.
+- `Kubernetes & CI/CD` *(In Progress)* — Container orchestration concepts, automated testing with GitHub Actions.
+- `Postman` — API contract verification, payload testing, endpoint debugging.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 🚀 Featured Projects
+
+---
+
+### 🌾 01. KrishiLens — Agricultural Crop &amp; Market Decision Support
+> *A multilingual decision-support platform designed for Maharashtra farmers to bridge the critical gap between raw weather reports, harvest timing, and optimal market realization.*
+
+```
+╔═════════════════════════════════════════════════════════════════════════════╗
+║  🌾 KRISHILENS // FLAGSHIP HACKATHON INNOVATION                             ║
+║  ─────────────────────────────────────────────────────────────────────────  ║
+║  • Role: Team Lead (Team AgriSathi, Hackathon)                              ║
+║  • UI: Multilingual Interface in English, Marathi, and Hindi                ║
+║  • Backend: Python FastAPI with modular endpoints & Docker configuration     ║
+║  • Intelligence: 2017–2026 climate, yield, satellite indices & mandi data   ║
+║  • Advisory: Recommends precise harvest windows to prevent unseasonal loss  ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+```
+
+<table>
+<tr>
+<td width="65%" valign="top">
+
+#### 🎯 Problem &amp; Challenge
+Farmers across Maharashtra frequently lose massive crop value when unexpected rains strike during harvesting or when crops are rushed into oversupplied markets. Standard government portals provide raw weather lists or historical rates, but lack **actionable farm intelligence** that tells a farmer *when* to harvest and *where* to sell.
+
+#### 🛠️ Direct Contribution &amp; Architecture
+- **Team Leadership:** Served as Team Lead for Team AgriSathi, orchestrating technical integration between frontend, backend API services, and data models.
+- **Full-Stack Development:** Co-engineered the **React/Vite** frontend with an intuitive, low-friction intake form (Taluka, soil type, crop variety) supporting instantaneous toggling between English, Marathi, and Hindi.
+- **Backend API Engineering:** Built modular **FastAPI** backend routes (`/advisory`, `/market`, `/options`, `/schemas`) connected with historical datasets and OpenAPI contracts.
+
+#### 🔍 Verified Technology Stack
+`Python` • `FastAPI` • `React` • `Tailwind CSS` • `OpenAPI` • `Docker`
+
+</td>
+<td width="35%" valign="top">
+
+```yaml
+Project: KrishiLens
+Role: Team Lead & Full-Stack
+Context: Hackathon Innovation
+Status: Verified Working Prototype
+Domain: Agri-Tech Intelligence
+```
+
+<div align="center">
+
+<br/>
+
+<a href="https://github.com/mujawarswaliya483-sys/krishilense">
+  <img src="https://img.shields.io/badge/%E3%80%88_VIEW_KRISHILENS_REPO_%2F%E3%80%89-238636?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="View KrishiLens" />
 </a>
 
 <br/><br/>
 
-![](https://img.shields.io/badge/UI_FLOW-VERIFIED-7ee787?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/REACT-19.2-3fb950?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/TAILWIND-V4-2ea043?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/STATUS-FUNCTIONAL_PROTOTYPE-39D98A?style=flat-square&labelColor=080B12)
+![](https://img.shields.io/badge/ROLE-TEAM_LEAD-8B5CF6?style=flat-square&labelColor=080B12)
+![](https://img.shields.io/badge/API-FASTAPI-22D3EE?style=flat-square&labelColor=080B12)
 
 </div>
 
@@ -162,56 +262,59 @@ Architect: Swaliya Mujawar
 
 ---
 
-### 🌾 02. KrishiLens — Agricultural Crop & Market Decision Support
-> *A multilingual decision-support platform designed with Team AgriSathi for Maharashtra farmers.*
+### 🌿 02. LUMI — Guided Emotional Wellbeing Experience
+> *A mindful web application designed around conversational check-ins, intentional support pathways, and calm user flows.*
+
+```
+╔═════════════════════════════════════════════════════════════════════════════╗
+║  🌿 LUMI // HUMAN-CENTERED INTERACTION ARCHITECTURE                        ║
+║  ─────────────────────────────────────────────────────────────────────────  ║
+║  • Multi-Screen Flow: Home ➔ CheckIn ➔ Calm / CompanionRequest ➔ Consent    ║
+║    ➔ ConnectOutcome ➔ ConversationEnded                                     ║
+║  • Built from scratch with React 19 + Tailwind CSS v4                       ║
+║  • Zero bloated templates; custom state transition mechanics                ║
+║  • Accompanied by in-depth frontend study notebook analyzing component tree ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+```
 
 <table>
 <tr>
-<td width="62%" valign="top">
+<td width="65%" valign="top">
 
-```
-  ╔═══════════════════════════════════════════════════════╗
-  ║  🌾 KRISHILENS ARCHITECTURAL HIGHLIGHTS               ║
-  ║  ──────────────────────────────────────               ║
-  ║  • Role: Team Lead (Team AgriSathi, Hackathon)        ║
-  ║  • Multilingual: English, Marathi, Hindi UI           ║
-  ║  • Backend: Python FastAPI with modular API routing   ║
-  ║  • Real harvest date recommendation algorithms        ║
-  ║  • Integrated with historical climate & market data   ║
-  ╚═══════════════════════════════════════════════════════╝
-```
+#### 🎯 Problem &amp; Challenge
+Most mental health trackers are either sterile clinical logs or basic 1-to-5 emoji meters that leave overwhelmed users isolated. LUMI provides a calm, safe interaction flow that helps someone articulate what they need in the exact moment—grounding breathing techniques or requesting companion support.
 
-#### 🎯 Problem & Solution
-Farmers often face drastic crop depreciation when unexpected unseasonal rains hit before harvest or when crops are sold in saturated mandis. KrishiLens provides predictive harvest timing and market realization by combining 2017–2026 data models, satellite indices, and live weather inputs.
+#### 🛠️ Direct Contribution &amp; Architecture
+- **State Machine Flow:** Architected a 7-stage client state flow using React state transitions without external state library bloat.
+- **Modern Component Engineering:** Developed custom reusable UI components using **React 19** and **Tailwind CSS v4** with Lucide icons.
+- **Deep Study Documentation:** Maintained `frontend-study-notebook.md` inside the repository to dissect component lifecycles, prop drill mitigation, and state boundaries from first principles.
 
-#### 🛠️ Direct Contribution & Leadership
-- **Team Leadership:** Coordinated technical strategy between frontend, backend, and machine learning tracks.
-- **Full-Stack Implementation:** Co-built the **React/Vite** multilingual UI and developed the **FastAPI** backend service routes (`/advisory`, `/market`, `/options`, `/schemas`).
+#### 🔍 Verified Technology Stack
+`React 19` • `Tailwind CSS v4` • `Lucide React` • `Vite` • `Oxlint`
 
 </td>
-<td width="38%" valign="top">
+<td width="35%" valign="top">
 
 ```yaml
-Repository: krishilense
-Role: Team Lead & Developer
-Backend: Python FastAPI, Docker
-Frontend: React, Tailwind CSS
-Status: Hackathon Functional Prototype
+Project: LUMI
+Role: Sole Architect & Developer
+Status: Active Frontend Prototype
+Focus: Empathic UX & State Design
 ```
-
-<br/>
 
 <div align="center">
 
-<a href="https://github.com/mujawarswaliya483-sys/krishilense">
-  <img src="https://img.shields.io/badge/%E3%80%88_EXPLORE_REPO_%2F%E3%80%89-KRISHILENS-238636?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white" alt="View KrishiLens" />
+<br/>
+
+<a href="https://github.com/mujawarswaliya483-sys/LUMI">
+  <img src="https://img.shields.io/badge/%E3%80%88_VIEW_LUMI_REPO_%2F%E3%80%89-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="View LUMI" />
 </a>
 
 <br/><br/>
 
-![](https://img.shields.io/badge/ROLE-TEAM_LEAD-FFD700?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/API-FASTAPI-3fb950?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/DOCKER-READY-2ea043?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/STATUS-ACTIVE_PROTOTYPE-8B5CF6?style=flat-square&labelColor=080B12)
+![](https://img.shields.io/badge/FRAMEWORK-REACT_19-22D3EE?style=flat-square&labelColor=080B12)
+![](https://img.shields.io/badge/STYLING-TAILWIND_V4-39D98A?style=flat-square&labelColor=080B12)
 
 </div>
 
@@ -219,26 +322,21 @@ Status: Hackathon Functional Prototype
 </tr>
 </table>
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
-</div>
+---
 
-<!-- ═══════════════════════════ UPCOMING PROJECTS PIPELINE ═══════════════════════════ -->
+### 🌐 03. Wondurlust &amp; Web Explorations
+> *Hands-on full-stack CRUD applications exploring server-side routing, database persistence, authentication, and layout architecture.*
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Fpipeline;%E2%94%94%E2%94%80%E2%94%80%24+ls+-la+upcoming_releases%2F" alt="Pipeline Header" />
-</div>
+- **Wondurlust:** Full-stack web application exploring database models, dynamic server-side rendering, REST routes, and listing management.
+- **Foundation Projects:** Interactive JavaScript tools, responsive landing page architectures, and DOM manipulation experiments.
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%9A%8C_TRANSIT-AI_BUS_SYSTEM-238636?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/%F0%9F%A4%96_DEVTOOLS-WEBDEV_AI-1f6feb?style=for-the-badge&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/%F0%9F%8F%9B%EF%B8%8F_3D_CAMPUS-DKTEWORLD-8957e5?style=for-the-badge&labelColor=0d1117" />
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-<br/>
+## 🚀 Upcoming Projects &amp; R&amp;D Pipeline
 
 <table>
 <tr>
@@ -251,12 +349,12 @@ Status: Hackathon Functional Prototype
 │ DOMAIN: SMART TRANSIT SYSTEMS   │
 └─────────────────────────────────┘
 ```
-**An intelligent transit management platform** aimed at solving municipal and campus bus delays, overcrowded routes, and unreliable timetables.
+**An intelligent public &amp; campus transit management system** aimed at eliminating bus delays, overcrowded routes, and schedule uncertainty.
 
-- 📍 **Real-Time Fleet Telemetry:** Live route mapping and stop ETA calculations.
-- 🧠 **Occupancy & Demand Forecasting:** AI prediction models estimating seat availability based on peak hours and historical ridership.
-- ⚡ **Dispatcher Command Hub:** Automated route re-allocation during traffic congestion.
-- 🛠️ **Planned Stack:** React, Python / Node.js, FastAPIs, MongoDB, Leaflet Maps.
+- 📍 **Real-Time Fleet Telemetry:** Live route mapping and automated stop ETA calculation.
+- 🧠 **Occupancy &amp; Demand Forecasting:** Machine learning models estimating seat availability based on peak hours and historical ridership.
+- ⚡ **Dispatcher Console:** Smart route reallocation during unexpected road delays.
+- 🛠️ **Planned Stack:** React, Node.js / Python FastAPI, Leaflet/Mapbox, MongoDB.
 
 </td>
 <td width="33%" valign="top">
@@ -265,14 +363,14 @@ Status: Hackathon Functional Prototype
 ```
 ┌─────────────────────────────────┐
 │ STATUS: PROTOTYPE & R&D         │
-│ DOMAIN: DEVELOPER ACCELERATION  │
+│ DOMAIN: DEVELOPER TOOLING       │
 └─────────────────────────────────┘
 ```
-**A specialized AI development toolkit** crafted to help web engineers build and validate full-stack systems faster and cleaner.
+**A developer-first AI productivity toolkit** created to accelerate full-stack web development and validate system architecture.
 
-- ⚡ **Contextual Component Scaffolding:** Generates production-ready React 19 / Tailwind components based on project design systems.
-- 🛡️ **Schema & Contract Validator:** Bridges frontend schemas with FastAPI and Express endpoints to prevent runtime serialization bugs.
-- 🧪 **Accessibility & Oxlint Auditor:** Automated checks for WCAG compliance.
+- ⚡ **Contextual Component Scaffolding:** Synthesizes production-ready React 19 / Tailwind components tailored to project design tokens.
+- 🛡️ **Schema &amp; API Contract Auditor:** Cross-verifies frontend TypeScript schemas with backend FastAPI/Express routes.
+- 🧪 **Accessibility &amp; Linting Inspector:** Automated checks for WCAG compliance.
 - 🛠️ **Planned Stack:** Next.js, TypeScript, Tailwind CSS, LLM API integration.
 
 </td>
@@ -285,209 +383,150 @@ Status: Hackathon Functional Prototype
 │ DOMAIN: SPATIAL WEB & 3D        │
 └─────────────────────────────────┘
 ```
-**An interactive, sketch-styled 3D spatial model** of the DKTE college campus for students, faculty, and visitors.
+**An interactive, sketch-styled 3D spatial model** of the DKTE college campus for incoming students, faculty, and visitors.
 
-- 🗺️ **Visual Campus Navigation:** Walkthrough departments, laboratories, classrooms, and offices in 3D.
+- 🗺️ **Visual Campus Navigation:** Walkthrough departments, laboratories, classrooms, and offices in 3D space.
 - 🔎 **Smart Directory:** Interactive search for faculty cabins and lecture room timetables.
-- 🎨 **Stylized Low-Poly Aesthetics:** Custom sketch textures rendered without heavy GPU strain.
+- 🎨 **Stylized Low-Poly Aesthetics:** Custom sketch textures rendered without heavy GPU overhead.
 - 🛠️ **Planned Stack:** Three.js, WebGL, React, Blender.
 
 </td>
 </tr>
 </table>
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
-</div>
-
-<!-- ═══════════════════════════ TECH STACK MATRIX ═══════════════════════════ -->
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Fskills;%E2%94%94%E2%94%80%E2%94%80%24+tree+-L+2+tech_arsenal%2F" alt="Tech Stack Header" />
-</div>
-
 <br/>
 
 <div align="center">
-
-<!-- LANGUAGES -->
-<details open>
-<summary><b>⟨ 💻 CORE PROGRAMMING LANGUAGES /⟩</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=cpp,c,js,py,html,css&theme=dark&perline=6" alt="Languages" />
-<br/><br/>
-
-![C++](https://img.shields.io/badge/C++-OOP_&_Data_Structures-238636?style=flat-square&labelColor=0d1117)
-![C](https://img.shields.io/badge/C-Systems_Fundamentals-2ea043?style=flat-square&labelColor=0d1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+_Modern_Web-3fb950?style=flat-square&labelColor=0d1117)
-![Python](https://img.shields.io/badge/Python-FastAPI_&_Scripting-238636?style=flat-square&labelColor=0d1117)
-![HTML5/CSS3](https://img.shields.io/badge/HTML5/CSS3-Semantic_&_Responsive-2ea043?style=flat-square&labelColor=0d1117)
-
-</details>
-
-<br/>
-
-<!-- FRONTEND -->
-<details open>
-<summary><b>⟨ ⚛️ FRONTEND ARCHITECTURE & DESIGN /⟩</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=react,tailwind,vite,bootstrap,figma&theme=dark&perline=5" alt="Frontend Tech" />
-<br/><br/>
-
-![React](https://img.shields.io/badge/React_19-Components_&_State_Flow-238636?style=flat-square&labelColor=0d1117)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS_v4-Design_Tokens_&_Layouts-3fb950?style=flat-square&labelColor=0d1117)
-![Vite](https://img.shields.io/badge/Vite-Fast_Build_Tooling-2ea043?style=flat-square&labelColor=0d1117)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-Rapid_Prototyping-1f6feb?style=flat-square&labelColor=0d1117)
-
-</details>
-
-<br/>
-
-<!-- BACKEND & DATABASES -->
-<details open>
-<summary><b>⟨ 🧩 BACKEND SERVICES & DATA PLATFORMS /⟩</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,mysql&theme=dark&perline=5" alt="Backend Tech" />
-<br/><br/>
-
-![Node.js](https://img.shields.io/badge/Node.js-Backend_Runtimes-238636?style=flat-square&labelColor=0d1117)
-![Express](https://img.shields.io/badge/Express.js-RESTful_APIs-3fb950?style=flat-square&labelColor=0d1117)
-![FastAPI](https://img.shields.io/badge/FastAPI-High_Performance_Endpoints-2ea043?style=flat-square&labelColor=0d1117)
-![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL_Document_Stores-238636?style=flat-square&labelColor=0d1117)
-![MySQL](https://img.shields.io/badge/MySQL-Relational_Databases-1f6feb?style=flat-square&labelColor=0d1117)
-
-</details>
-
-<br/>
-
-<!-- TOOLS -->
-<details open>
-<summary><b>⟨ 🔧 DEVELOPMENT TOOLS & WORKFLOW /⟩</b></summary>
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,linux,docker,vscode,postman&theme=dark&perline=6" alt="Dev Tools" />
-<br/><br/>
-
-![Git](https://img.shields.io/badge/Git-Version_Control-238636?style=flat-square&labelColor=0d1117)
-![GitHub](https://img.shields.io/badge/GitHub-Collaboration_&_CI/CD-3fb950?style=flat-square&labelColor=0d1117)
-![Linux](https://img.shields.io/badge/Linux-Terminal_&_Scripting-2ea043?style=flat-square&labelColor=0d1117)
-![Docker](https://img.shields.io/badge/Docker-Container_Basics-1f6feb?style=flat-square&labelColor=0d1117)
-![Postman](https://img.shields.io/badge/Postman-API_Verification-238636?style=flat-square&labelColor=0d1117)
-
-</details>
-
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
-</div>
+## 🌌 Original Contribution Animation — Aurora Circuit
 
-<!-- ═══════════════════════════ ENGINEERING WORKFLOW ═══════════════════════════ -->
+Inspired by the visual rhythm of contribution activity, **Aurora Circuit** reimagines git telemetry as energy pulses traveling through a living digital constellation.
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Fworkflow;%E2%94%94%E2%94%80%E2%94%80%24+cat+engineering_cycle.svg" alt="Workflow Header" />
+  <img src="./assets/aurora-circuit.svg" width="100%" alt="Aurora Circuit — Original Interactive Contribution Animation" />
 </div>
+
+- **The Concept:** A calendar matrix where active emerald cells represent verified contributions.
+- **The Dynamics:** Dual luminous cyan (`#22D3EE`) and electric violet (`#8B5CF6`) energy pulses weave along circuit paths across the grid.
+- **Central Nexus:** A rotating core portal at the center links data tracks, releasing periodic light ripples across adjacent nodes.
 
 <br/>
 
 <div align="center">
-  <img src="./assets/workflow.svg" width="100%" alt="5-Stage Engineering Workflow" />
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-<br/>
+## 🏆 Hackathons &amp; Innovation
+
+Recognizing that real engineering happens when solving non-trivial problems under tight deadlines.
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="100%">
 
-```
-  ╔══════════════════════════════════════════╗
-  ║                                          ║
-  ║   ⚔️  STRUCTURED STUDY LOGS              ║
-  ║   ─────────────────────────              ║
-  ║                                          ║
-  ║   💻 CPP-basics-and-oop-concepts         ║
-  ║      └─ Classes, Objects, Inheritance    ║
-  ║      └─ Pointers, Memory & Polymorphism  ║
-  ║      └─ Daily Problem Sets & OOP notes   ║
-  ║                                          ║
-  ║   🌐 web-dev-journey                     ║
-  ║      └─ Modular JavaScript & DOM         ║
-  ║      └─ React Component Hierarchies      ║
-  ║      └─ Express & MongoDB REST patterns  ║
-  ║                                          ║
-  ╚══════════════════════════════════════════╝
-```
-
-<div align="center">
-
-<a href="https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts">
-  <img src="https://img.shields.io/badge/%E3%80%88_VIEW_C++_LOGS_%2F%E3%80%89-CPP--Basics-238636?style=flat-square&labelColor=0d1117" alt="C++ Logs" />
-</a>
-&nbsp;
-<a href="https://github.com/mujawarswaliya483-sys/web-dev-journey">
-  <img src="https://img.shields.io/badge/%E3%80%88_VIEW_WEB_DEV_%2F%E3%80%89-Web--Journey-3fb950?style=flat-square&labelColor=0d1117" alt="Web Dev Journey" />
-</a>
-
-</div>
-
-</td>
-<td width="50%" valign="top">
-
-```
-  ╔══════════════════════════════════════════╗
-  ║                                          ║
-  ║   🎖️  CORE PRINCIPLES & GOALS            ║
-  ║   ───────────────────────────            ║
-  ║                                          ║
-  ║   🌱 First-Principles Understanding      ║
-  ║      └─ Documenting 'why', not just 'how'║
-  ║      └─ Mastering bugs without shortcuts ║
-  ║                                          ║
-  ║   🤝 Collaborative Leadership            ║
-  ║      └─ Team Lead @ Hackathon AgriSathi  ║
-  ║      └─ Cross-functional sync (ML & Dev) ║
-  ║                                          ║
-  ║   🎯 Immediate Horizon                   ║
-  ║      └─ Software Engineering Internships ║
-  ║      └─ Open Source Contributions        ║
-  ║      └─ Exploring Enterprise Web/SAP     ║
-  ║                                          ║
-  ╚══════════════════════════════════════════╝
-```
-
-<div align="center">
-
-![](https://img.shields.io/badge/FOCUS-FULL--STACK_SWE-7ee787?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/ACADEMIC-DKTE_CSE-2ea043?style=flat-square&labelColor=0d1117)
-
-</div>
+### 🌾 KrishiLens — Crop-to-Market Decision Support
+- **Event / Context:** Maharashtra Hackathon Innovation Challenge (Team AgriSathi)
+- **Role:** Team Lead &amp; Full-Stack Developer
+- **Focus:** Farmer agricultural intelligence, harvest timing prediction, and mandi price advisory using 2017–2026 climate and market datasets.
+- **Output:** Functional multilingual prototype with React frontend and FastAPI backend service.
+- **Repository:** [mujawarswaliya483-sys/krishilense](https://github.com/mujawarswaliya483-sys/krishilense)
 
 </td>
 </tr>
 </table>
 
-<!-- ANIMATED DIVIDER -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
-</div>
+<!-- FUTURE HACKATHON ENTRY TEMPLATE (UNCOMMENT AND POPULATE AS COMPLETED):
+<table>
+<tr>
+<td width="100%">
 
-<!-- ═══════════════════════════ GITHUB TELEMETRY ═══════════════════════════ -->
+### 🚀 [Hackathon Name] — [Project Title]
+- **Event / Date:** [Organization / Month Year]
+- **Role:** [Your Role / Team Name]
+- **Problem Solved:** [1-2 sentences on what was built]
+- **Achievement / Placement:** [Winner / Finalist / Participant]
+- **Project Link:** [Repository or Demo Link]
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2000&pause=500&color=7EE787&center=true&vCenter=true&width=650&height=40&lines=%E2%94%8C%E2%94%80%E2%94%80+root%40swaliya-mujawar+%E2%94%80%E2%94%80+~%2Ftelemetry;%E2%94%94%E2%94%80%E2%94%80%24+neofetch+--github" alt="Telemetry Header" />
-</div>
+</td>
+</tr>
+</table>
+-->
 
 <br/>
 
 <div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 📜 Certifications &amp; Learning Milestones
+
+Maintaining an honest record of completed academic courses and technical milestones.
+
+- 🎓 **B.Tech Computer Science &amp; Engineering (Ongoing):** DKTE Society's Textile &amp; Engineering Institute — Focus on Object-Oriented Programming, Data Structures, Operating Systems, Database Management Systems, and Software Engineering.
+- 💻 **Modern Full-Stack Web Development:** Practical hands-on mastery through real applications (LUMI, KrishiLens, Wondurlust).
+- 🧠 **C++ Foundations &amp; Algorithms:** Systematic daily tracking of memory pointers, OOP hierarchies, and algorithmic problem solving.
+
+<!-- FUTURE CERTIFICATION TEMPLATE (UNCOMMENT AND POPULATE AS CERTIFICATES ARE EARNED):
+| Certificate Title | Issuing Organization | Completion Date | Verification Credential |
+| :--- | :--- | :--- | :--- |
+| [e.g. Meta Frontend Developer] | [Coursera / Meta] | [Month Year] | [Link to Verification] |
+| [e.g. AWS Certified Cloud Practitioner] | [Amazon Web Services] | [Month Year] | [Link to Verification] |
+-->
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 🎯 Current Focus &amp; Learning Roadmap
+
+```text
+                  🌱 FOUNDATIONS ──► ⚛️ FULL-STACK ──► 🎨 3D WEB & SPATIAL
+```
+
+1. **Interactive 3D Web &amp; Three.js:** Deepening understanding of scene graph optimization, camera math, shader lighting, and Blender glTF pipelines.
+2. **Containerization &amp; DevOps:** Containerizing multi-tier applications with Docker and exploring Kubernetes cluster management.
+3. **Data Structures &amp; Algorithms:** Daily disciplined problem solving in C++ focusing on graphs, dynamic programming, and complexity analysis.
+4. **CI/CD Automation:** Setting up automated testing and deployment workflows using GitHub Actions.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 🔬 How I Build &amp; Learn
+
+I structure my learning systematically. Every major project passes through five deliberate phases:
+
+<div align="center">
+  <img src="./assets/workflow.svg" width="100%" alt="5-Stage Engineering Workflow: Discovery, Design &amp; State, Engineering, Test &amp; Debug, Document" />
+</div>
+
+<br/>
+
+### 📚 Dedicated Study Repositories
+- 💻 **[CPP-basics-and-oop-concepts](https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts):** Daily problem-solving, C++ OOP implementations, operator overloading, inheritance hierarchies, and memory management.
+- 🌐 **[web-dev-journey](https://github.com/mujawarswaliya483-sys/web-dev-journey):** Hands-on modular experiments across frontend layouts, DOM manipulation, asynchronous JavaScript, and backend integration.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+</div>
+
+## 📊 GitHub Analytics &amp; Activity Telemetry
+
+<div align="center">
 
 <!-- STREAK STATS -->
-<img src="https://streak-stats.demolab.com?user=mujawarswaliya483-sys&theme=github-dark&hide_border=true&ring=7ee787&fire=3fb950&currStreakNum=7ee787" width="49%" alt="Contribution Streak" />
+<img src="https://streak-stats.demolab.com?user=mujawarswaliya483-sys&theme=tokyonight&hide_border=true&ring=8B5CF6&fire=22D3EE&currStreakNum=39D98A&background=080B12" width="49%" alt="Contribution Streak" />
 
 <!-- GITHUB STATS -->
-<img src="https://github-readme-stats.vercel.app/api?username=mujawarswaliya483-sys&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=3fb950&text_color=e6edf3" width="49%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=mujawarswaliya483-sys&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=080B12&title_color=8B5CF6&icon_color=22D3EE&text_color=F3F4F6&border_color=111827" width="49%" alt="GitHub Statistics" />
 
 </div>
 
@@ -496,43 +535,58 @@ Status: Hackathon Functional Prototype
 <div align="center">
 
 <!-- TOP LANGUAGES -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mujawarswaliya483-sys&layout=compact&langs_count=6&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=e6edf3" width="60%" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mujawarswaliya483-sys&layout=compact&langs_count=6&hide_border=true&bg_color=080B12&title_color=8B5CF6&text_color=F3F4F6&border_color=111827" width="60%" alt="Top Languages" />
 
 </div>
 
 <br/>
 
-<!-- ANIMATED DIVIDER -->
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Divider" />
+  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
 </div>
 
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+## 🤝 Let's Connect
+
+I am actively seeking **Software Engineering, Full-Stack Web, and Creative Developer internships**, open-source collaboration, and technical mentorship. If you are building innovative web or 3D products, let's talk.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f0c,35:122216,70:1a3a22,100:238636&height=180&section=footer&text=while(alive)%20%7B%20learn();%20build();%20refactor();%20%7D&fontSize=18&fontColor=ffffff&animation=twinkling&fontAlignY=65&stroke=7ee787&strokeWidth=1" width="100%" alt="Footer Banner" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&duration=3500&pause=1000&color=7EE787&center=true&vCenter=true&width=750&height=50&lines=%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22+%E2%80%94+John+Johnson;%22The+only+way+to+go+fast%2C+is+to+go+well.%22+%E2%80%94+Robert+C.+Martin;%22Simplicity+is+prerequisite+for+reliability.%22+%E2%80%94+Edsger+W.+Dijkstra" alt="Quotes" />
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=mujawarswaliya483-sys&label=%E3%80%88+PROFILE+VIEWS+%2F%E3%80%89&color=238636&style=for-the-badge&labelColor=0d1117" alt="Profile Views" />
+<a href="mailto:swaliya.mujawar@gmail.com">
+  <img src="https://img.shields.io/badge/Email-swaliya.mujawar%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white&labelColor=080B12" alt="Email Swaliya" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/swaliya-mujawar">
+  <img src="https://img.shields.io/badge/LinkedIn-Swaliya_Mujawar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=080B12" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/mujawarswaliya483-sys">
+  <img src="https://img.shields.io/badge/GitHub-mujawarswaliya483--sys-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=080B12" alt="GitHub" />
+</a>
 
 <br/><br/>
+
+<p>
+  <a href="https://www.leetcode.com/swaliya_mujawar"><strong>LeetCode:</strong> swaliya_mujawar</a> • 
+  <a href="https://www.hackerrank.com/mujawarswaliya41"><strong>HackerRank:</strong> mujawarswaliya41</a> • 
+  <a href="https://discord.gg/swaliyamujawar"><strong>Discord:</strong> swaliyamujawar</a>
+</p>
+
+<br/>
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
-║   ⭐  If my projects inspire you, drop a star on the repositories!    ║
-║   🤝  Open for SWE internships, full-stack projects & collaborations ║
-║   📧  mujawarswaliya483@gmail.com                                    ║
+║   ⭐  If my projects inspire you, consider starring the repos!       ║
+║   🤝  Open for SWE internships, full-stack builds & 3D experiments   ║
+║   📧  swaliya.mujawar@gmail.com                                      ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
 ```
 
+<br/>
+
+<sub>Crafted with code craft, creative ambition, and genuine passion for building software.</sub>
+
 </div>
 
-<!-- END OF README — Built with precision, code craft, and passion by Swaliya Mujawar -->
+<!-- END OF README -->

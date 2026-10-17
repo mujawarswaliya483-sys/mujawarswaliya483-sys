@@ -1,49 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto" role="img" aria-label="Engineering Workflow and Methodology">
   <defs>
     <linearGradient id="wfBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0d1410"/>
-      <stop offset="100%" stop-color="#121a14"/>
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#152118"/>
-      <stop offset="100%" stop-color="#101812"/>
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
     <linearGradient id="wfLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2a3f2f"/>
-      <stop offset="50%" stop-color="#7ee787"/>
-      <stop offset="100%" stop-color="#2a3f2f"/>
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#39D98A"/>
     </linearGradient>
   </defs>
 
   <style>
     .wf-mono { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 10px; font-weight: 700; letter-spacing: 1.5px; }
-    .wf-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #e8ede6; }
-    .wf-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 11px; font-weight: 400; fill: #97ab9a; line-height: 1.4; }
+    .wf-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #F3F4F6; }
+    .wf-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 11px; font-weight: 400; fill: #9CA3AF; line-height: 1.4; }
   </style>
 
   <!-- Container -->
-  <rect width="1200" height="180" rx="14" fill="url(#wfBg)" stroke="#223326" stroke-width="1.2"/>
+  <rect width="1200" height="180" rx="14" fill="url(#wfBg)" stroke="#1F2937" stroke-width="1.5"/>
 
   <!-- Connecting Backbone Line -->
-  <line x1="120" y1="88" x2="1080" y2="88" stroke="url(#wfLine)" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <line x1="120" y1="88" x2="1080" y2="88" stroke="url(#wfLine)" stroke-width="2" stroke-dasharray="6 4"/>
 
   <!-- STEP 1: Discovery -->
   <g transform="translate(60, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#2b4031" stroke-width="1.2"/>
-    <circle cx="24" cy="24" r="10" fill="#1b2e21" stroke="#3d5a44" stroke-width="1"/>
-    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#7ee787">01</text>
-    <text x="44" y="27" class="wf-mono" fill="#8fad92">DISCOVERY</text>
+    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="24" cy="24" r="10" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="1"/>
+    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#C084FC">01</text>
+    <text x="44" y="27" class="wf-mono" fill="#A78BFA">DISCOVERY</text>
     <text x="20" y="58" class="wf-title">Real Problem Context</text>
     <text x="20" y="80" class="wf-desc">Identifying real user pain points</text>
-    <text x="20" y="96" class="wf-desc">rather than hypothetical clones.</text>
+    <text x="20" y="96" class="wf-desc">in agriculture &amp; wellbeing.</text>
   </g>
 
   <!-- STEP 2: Architecture -->
   <g transform="translate(290, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#2b4031" stroke-width="1.2"/>
-    <circle cx="24" cy="24" r="10" fill="#1b2e21" stroke="#3d5a44" stroke-width="1"/>
-    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#7ee787">02</text>
-    <text x="44" y="27" class="wf-mono" fill="#8fad92">DESIGN &amp; STATE</text>
+    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#22D3EE">02</text>
+    <text x="44" y="27" class="wf-mono" fill="#38BDF8">DESIGN &amp; STATE</text>
     <text x="20" y="58" class="wf-title">User Flow &amp; Hierarchy</text>
     <text x="20" y="80" class="wf-desc">Mapping screen transitions, state</text>
     <text x="20" y="96" class="wf-desc">trees, and data schemas first.</text>
@@ -51,10 +52,10 @@
 
   <!-- STEP 3: Implementation -->
   <g transform="translate(520, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#3e6346" stroke-width="1.4"/>
-    <circle cx="24" cy="24" r="10" fill="#1e3825" stroke="#7ee787" stroke-width="1.2"/>
-    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#7ee787">03</text>
-    <text x="44" y="27" class="wf-mono" fill="#a3cf9a">ENGINEERING</text>
+    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.4"/>
+    <circle cx="24" cy="24" r="10" fill="#2E1065" stroke="#C084FC" stroke-width="1.2"/>
+    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#C084FC">03</text>
+    <text x="44" y="27" class="wf-mono" fill="#E879F9">ENGINEERING</text>
     <text x="20" y="58" class="wf-title">Component &amp; API Build</text>
     <text x="20" y="80" class="wf-desc">Writing intentional React code</text>
     <text x="20" y="96" class="wf-desc">and resilient backend endpoints.</text>
@@ -62,23 +63,23 @@
 
   <!-- STEP 4: Debugging -->
   <g transform="translate(750, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#2b4031" stroke-width="1.2"/>
-    <circle cx="24" cy="24" r="10" fill="#1b2e21" stroke="#3d5a44" stroke-width="1"/>
-    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#7ee787">04</text>
-    <text x="44" y="27" class="wf-mono" fill="#8fad92">TEST &amp; DEBUG</text>
+    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#39D98A" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="24" cy="24" r="10" fill="#064E3B" stroke="#39D98A" stroke-width="1"/>
+    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#39D98A">04</text>
+    <text x="44" y="27" class="wf-mono" fill="#34D399">TEST &amp; DEBUG</text>
     <text x="20" y="58" class="wf-title">Verifying Edge Cases</text>
     <text x="20" y="80" class="wf-desc">Breaking flows, fixing edge bugs,</text>
-    <text x="20" y="96" class="wf-desc">and optimizing responsiveness.</text>
+    <text x="20" y="96" class="wf-desc">and optimizing performance.</text>
   </g>
 
   <!-- STEP 5: Knowledge -->
   <g transform="translate(980, 28)">
-    <rect width="180" height="124" rx="10" fill="url(#cardGrad)" stroke="#2b4031" stroke-width="1.2"/>
-    <circle cx="24" cy="24" r="10" fill="#1b2e21" stroke="#3d5a44" stroke-width="1"/>
-    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#7ee787">05</text>
-    <text x="44" y="27" class="wf-mono" fill="#8fad92">DOCUMENT</text>
+    <rect width="180" height="124" rx="10" fill="url(#cardGrad)" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.6"/>
+    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+    <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#22D3EE">05</text>
+    <text x="44" y="27" class="wf-mono" fill="#67E8F9">DOCUMENT</text>
     <text x="20" y="58" class="wf-title">Notebook Synthesis</text>
     <text x="20" y="80" class="wf-desc">Explaining the code so it is</text>
-    <text x="20" y="96" class="wf-desc">mastered, not just copy-pasted.</text>
+    <text x="20" y="96" class="wf-desc">mastered, not just copied.</text>
   </g>
 </svg>
