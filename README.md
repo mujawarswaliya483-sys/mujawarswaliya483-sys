@@ -1,356 +1,262 @@
-<!-- <div align="center">
+<!-- ================================================================= -->
+<!-- SWALIYA MUJAWAR — DEVELOPER PROFILE README                         -->
+<!-- Built with deliberate craftsmanship, honest telemetry, and care  -->
+<!-- ================================================================= -->
 
-<!-- ========================================================= -->
-<!--                       HERO SECTION                        -->
-<!-- ========================================================= -->
+<div align="center">
 
-<img
-  src="./language-rain.svg"
-  width="100%"
-  alt="M_Swaliya Developer Profile"
-/>
+<img src="./assets/hero-banner.svg" alt="Swaliya Mujawar — Second-Year CSE Student &amp; Full-Stack Developer" width="100%" />
 
-<br/>
+<br/><br/>
 
-<h1>M_Swaliya</h1>
+<a href="https://github.com/mujawarswaliya483-sys"><img src="https://img.shields.io/badge/GitHub-Profile-161b22?style=flat-square&logo=github&logoColor=white&labelColor=0d1117" alt="GitHub Profile" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/swaliya-mujawar"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn Profile" /></a>
+&nbsp;
+<a href="mailto:mujawarswaliya483@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_Touch-238636?style=flat-square&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email Direct" /></a>
+&nbsp;
+<a href="https://github.com/mujawarswaliya483-sys?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-30363d?style=flat-square&logo=git&logoColor=white&labelColor=0d1117" alt="Explore Repositories" /></a>
 
-<h3>Full Stack Web Developer • CSE Student • Builder</h3>
+<br/><br/>
 
-<br/>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=mujawarswaliya483-sys&label=Profile%20Views&style=flat-square" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/mujawarswaliya483-sys?label=Followers&style=flat-square" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/mujawarswaliya483-sys?affiliations=OWNER&label=Stars&style=flat-square" alt="Stars"/>
-</p>
-
-<p>
-  <strong>
-    Building applications. Learning continuously. Turning ideas into real projects.
-  </strong>
-</p>
-
-<p>
-  <a href="https://github.com/mujawarswaliya483-sys">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://www.linkedin.com/in/swaliya-mujawar">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:mujawarswaliya483@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+<img src="./assets/divider.svg" alt="Section Divider" width="100%" />
 
 </div>
 
+## 🌿 The Approach
+
+I am a second-year Computer Science Engineering student at DKTE with a clear focus: **full-stack web development and software engineering from first principles.**
+
+I do not believe in collecting certificates without substance, nor in generating code I cannot explain. My growth comes from building real applications, mapping out state trees, wrestling with build tools and API boundaries, and maintaining intentional study notebooks as I learn.
+
+- **Current Direction:** Building responsive, accessible user interfaces with React and Tailwind CSS, paired with modular backend services and REST APIs.
+- **Foundational Rigor:** Studying object-oriented architecture, memory concepts, and algorithmic problem solving in C++.
+- **Near-Term Objective:** Seeking software engineering internships where I can contribute clean code, absorb real-world engineering standards, and build alongside thoughtful mentors.
+
 <br/>
 
----
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
 
-# 👨‍💻 About Me
+## 📌 Featured Project Case Studies
 
-Hi! I'm **M_Swaliya**, a Computer Science Engineering student and aspiring Full Stack Web Developer from India.
-
-I enjoy building web applications, exploring new technologies, solving programming problems, and learning by creating real projects.
-
-I'm currently focused on becoming stronger in **full-stack development, DSA, Git/GitHub, open source and software engineering interviews.**
-
-### 🚀 What I'm Doing Now
-
-- 💻 Building **LUMI**
-- ⚛️ Learning deeper **React.js**
-- 🎨 Working with **Tailwind CSS**
-- 🧠 Starting **Data Structures & Algorithms**
-- 🐙 Learning **Git & GitHub**
-- 🌍 Exploring **Open Source Contribution**
-- 🎯 Preparing for **Full Stack & Software Engineering Interviews**
-- 🗣️ Improving technical communication and English speaking
+Rather than treating projects as bullet points on a résumé, I treat them as engineering case studies. Here is the work that best represents how I think and build.
 
 ---
 
-# 🎯 Current Focus
+### 01. LUMI — Guided Emotional Wellbeing Experience
+> *A web application designed around conversational check-ins, intentional support selection, and calm user flows.*
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="65%" valign="top">
 
-### 💻 Full Stack Development
+#### 🎯 Problem & Motivation
+Most mood-tracking software relies on binary numbers or generic emoji pickers that leave users isolated when they are experiencing distress. LUMI was conceived to provide a safe, calm digital space that helps someone identify what kind of support they need in the exact moment they need it—whether that is structured calming techniques or requesting companion support.
 
-Going deeper into:
+#### 🛠️ Direct Contribution & Architecture
+- **Interactive Multi-Screen Flow:** Engineered the complete frontend state machine and screen navigation across seven dedicated flow stages: `Home` → `CheckIn` → `Calm` / `CompanionRequest` → `ConnectionConsent` → `ConnectOutcome` → `ConversationEnded`.
+- **Component Architecture:** Built reusable, accessible interface components using **React 19** and **Tailwind CSS v4** with zero template boilerplate.
+- **Deep Study Documentation:** Maintained a dedicated `frontend-study-notebook.md` alongside the codebase to analyze component lifecycles, prop flows, and state management mechanics to master every design decision independently.
 
-- React.js
-- Tailwind CSS
-- Node.js
-- Express.js
-- MongoDB
-- SQL
-- REST APIs
-- Authentication
-- Project architecture
+#### 🔍 Technology Stack
+`React 19` • `Tailwind CSS v4` • `Lucide React` • `Vite` • `Oxlint`
 
 </td>
+<td width="35%" valign="top">
 
-<td width="50%" valign="top">
+```yaml
+Project: LUMI
+Stage: Active Frontend Prototype
+Focus: Flow State & UX Empathy
+Repository: Public
+```
 
-### 🧠 Problem Solving
-
-Currently working towards:
-
-- Data Structures
-- Algorithms
-- Problem Solving
-- Complexity Analysis
-- Interview Questions
-- C Programming
-- C++
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🌍 Open Source
-
-Learning:
-
-- Git
-- GitHub
-- Branching
-- Pull Requests
-- Issues
-- Forks
-- Open Source Workflow
-- GSoC Preparation
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🎯 Career Preparation
-
-Preparing for:
-
-- Full Stack Interviews
-- JavaScript Interviews
-- DSA Interviews
-- Technical Communication
-- Real-world Projects
-- Software Engineering Roles
-
-</td>
-</tr>
-</table>
-
----
-
-# 🛠️ Tech Stack
-
-## 💻 Languages
-
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=c,cpp,html,css,js" alt="Programming Languages"/>
-
-</p>
-
-## ⚛️ Frontend
-
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap" alt="Frontend Technologies"/>
-
-</p>
-
-## 🧩 Backend & Database
-
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" alt="Backend Technologies"/>
-
-</p>
-
-## 🔧 Tools & Platforms
-
-<p align="left">
-
-<img src="https://skillicons.dev/icons?i=git,github,linux,docker,figma,vscode" alt="Development Tools"/>
-
-</p>
-
----
-
-# 🚀 Featured Projects
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-## 🌟 LUMI
-
-**LUMI** is my major ongoing project.
-
-I'm building it while exploring full-stack development, application architecture and interactive user experiences.
-
-### Tech
-
-- React
-- JavaScript
-- Node.js
-- MongoDB
-- Full Stack Development
+<div align="center">
 
 <a href="https://github.com/mujawarswaliya483-sys/LUMI">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="View LUMI"/>
+  <img src="https://img.shields.io/badge/View_Repository-LUMI-238636?style=for-the-badge&logo=github&logoColor=white" alt="View LUMI Repository" />
 </a>
 
+<br/><br/>
+
+<sub>*Frontend interaction flow built and verified. Backend connection endpoints planned for subsequent phase.*</sub>
+
+</div>
+
 </td>
+</tr>
+</table>
 
-<td width="50%" valign="top">
+---
 
-## KRISHILENSE
+### 02. KrishiLens — Crop-to-Market Decision Support
+> *An agricultural decision-support prototype built for Maharashtra farmers to bridge the gap between raw weather reports and timely harvesting decisions.*
 
-A full-stack web development project involving listings, routing, database operations and server-side rendering.
+<table>
+<tr>
+<td width="65%" valign="top">
 
-### Tech
+#### 🎯 Problem & Motivation
+Farmers across Maharashtra frequently lose substantial crop yield because raw weather forecasts do not tell them when it is safe to harvest, nor do historical mandi rates provide actionable forecasts for selling windows. KrishiLens was designed to translate multi-year agricultural data (yield, weather patterns, satellite inputs, and market trends) into clear harvest advisories.
 
-- PYTHON
-- KAGAL
+#### 🛠️ Direct Contribution & Leadership
+- **Team Leadership:** Served as **Team Lead** for Team AgriSathi during the hackathon lifecycle, coordinating responsibilities across UI, backend, and data modeling.
+- **Full-Stack Development:** Co-developed the **React/Vite** frontend (including bilingual support in English, Marathi, and Hindi with an accessible Taluka-level intake flow) and contributed to the **Python FastAPI** backend routes (`/advisory`, `/market`, `/options`, `/schemas`).
+- **Data Integration:** Built API routes connecting user farm inputs with historical datasets (2017–2026 data models) to provide real-time harvest date recommendations.
 
-<a href="">
-<img src="https://img.shields.io/badge/VIEW%20PROJECT-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="View Wondurlust"/>
+#### 🔍 Technology Stack
+`Python` • `FastAPI` • `React` • `Tailwind CSS` • `OpenAPI` • `Docker`
+
+</td>
+<td width="35%" valign="top">
+
+```yaml
+Project: KrishiLens
+Role: Team Lead & Full-Stack
+Context: Hackathon Innovation
+Stage: Functional Prototype
+Repository: Public
+```
+
+<div align="center">
+
+<a href="https://github.com/mujawarswaliya483-sys/krishilense">
+  <img src="https://img.shields.io/badge/View_Repository-KrishiLens-238636?style=for-the-badge&logo=github&logoColor=white" alt="View KrishiLens Repository" />
 </a>
 
-</td>
+<br/><br/>
 
+<sub>*Prototype developed with Team AgriSathi. Features functional multilingual UI and FastAPI backend contract.*</sub>
+
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+### 03. DKTEWorld — Digital Campus Exploration Concept
+> *An ambitious concept for an interactive, sketch-styled spatial digital twin of the DKTE college campus.*
+
+<table>
+<tr>
+<td width="65%" valign="top">
+
+#### 🎯 Problem & Vision
+College campuses can be intimidating and confusing to navigate for incoming students, parents, and visitors. DKTEWorld is an ongoing exploratory concept to create an interactive, hand-drawn sketch-style 3D campus model. Users will be able to navigate visually through departmental buildings, lecture halls, computing laboratories, and faculty cabins to discover locations and room directories.
+
+#### 🛠️ Architectural Plan & Current Study
+- **Visual Spatial Canvas:** Exploring **Three.js** and **WebGL** rendering pipelines to render lightweight isometric 3D geometry in the browser without high GPU overhead.
+- **Asset Pipeline:** Planning low-poly architectural geometry in **Blender** with a distinct illustrative sketch aesthetic.
+- **Frontend Layer:** Designing the accompanying interface controls in **React** for searching rooms, faculty schedules, and interactive points of interest.
+
+#### 🔍 Technologies in Exploration
+`React` • `Three.js` • `WebGL` • `Blender (Low-Poly)` • `REST APIs`
+
+</td>
+<td width="35%" valign="top">
+
+```yaml
+Project: DKTEWorld
+Concept: Campus Spatial Twin
+Stage: Architectural Design
+Status: Research & Modeling
+```
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Status-Concept_&amp;_R&amp;D-8b949e?style=for-the-badge&logoColor=white" alt="Concept &amp; R&amp;D" />
+
+<br/><br/>
+
+<sub>*Developing concept. Focus is currently on WebGL shader fundamentals and spatial user interactions.*</sub>
+
+</div>
+
+</td>
 </tr>
 </table>
 
 <br/>
 
-### 📂 More Projects
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
 
-Some of the areas I'm building and experimenting with:
+## 🛠️ Technical Capabilities & Foundations
 
-- 🛒 E-commerce applications
-- 💰 Donation platforms
-- 🧑‍💻 Developer portfolio
-- 📝 Resume builder concepts
-- 🌐 Full-stack CRUD applications
-- 🔥 JavaScript projects
-- &#8962;  wondurlust
-- lumi
+I distinguish clearly between technologies I have built real projects with, versus systems I am actively learning.
 
-<p align="center">
+| Domain | Daily Working Tools *(Applied in Projects)* | Actively Deepening *(In Progress)* | Long-Term Horizons |
+| :--- | :--- | :--- | :--- |
+| **Frontend** | React 19, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS | State machines, performance profiling, responsive accessibility | WebGL / Three.js spatial interfaces |
+| **Backend &amp; APIs** | RESTful routing, Python (FastAPI endpoints), Node.js fundamentals | Express.js architecture, authentication flows, middleware | Microservices, distributed API design |
+| **Data &amp; Storage** | Relational schema basics (SQL), MongoDB document structure | Mongoose ORM, query optimization, indexing | Distributed data stores |
+| **Core Systems** | C, C++ (OOP classes, inheritance, pointers), Git &amp; GitHub | Data Structures &amp; Algorithms, time/space complexity | Open-source system contributions, SAP Cloud |
+| **Tooling &amp; Workflow**| Vite, Oxlint, VS Code, Linux shell commands, Docker fundamentals | CI/CD GitHub Actions, automated unit testing | Cloud deployment pipelines |
 
-<a href="https://github.com/mujawarswaliya483-sys?tab=repositories">
+<br/>
 
-<img
-src="https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white"
-alt="Explore repositories"
-/>
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
 
+## 🔬 How I Build &amp; Learn
+
+I structure my learning systematically. Every major project passes through five deliberate phases to ensure genuine comprehension:
+
+<div align="center">
+  <img src="./assets/workflow.svg" alt="Engineering Workflow: Discovery, Design &amp; State, Engineering, Test &amp; Debug, Document" width="100%" />
+</div>
+
+<br/>
+
+- **Self-Documented Progression:** In both my [C++ Foundations](https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts) and [Web Dev Journey](https://github.com/mujawarswaliya483-sys/web-dev-journey) repositories, I maintain daily logs and conceptual notes on OOP, pointer arithmetic, and CSS layout algorithms.
+- **Writing to Understand:** In LUMI, I write detailed architectural notes explaining *why* a particular component tree was chosen, ensuring I can defend and refactor any part of my codebase independently.
+- **Collaborative Problem Solving:** Through hackathons and team coordination, I focus on clear API contracts, structured branching, and clear communication between frontend and data layers.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
+
+## 📚 Study Repositories &amp; Daily Craft
+
+In addition to my featured applications, I maintain focused repositories for structured daily practice:
+
+- 💻 **[CPP-basics-and-oop-concepts](https://github.com/mujawarswaliya483-sys/CPP-basics-and-oop-concepts)** — Daily problem-solving, C++ OOP implementations, operator overloading, inheritance hierarchies, and memory management.
+- 🌐 **[web-dev-journey](https://github.com/mujawarswaliya483-sys/web-dev-journey)** — Hands-on modular experiments across frontend layouts, DOM manipulation, asynchronous JavaScript, and backend integration.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/divider.svg" alt="Section Divider" width="100%" />
+</div>
+
+## 📬 Let's Connect
+
+I am actively looking for **Software Engineering and Full-Stack Web Development internships**, open-source collaboration, and mentorship opportunities. If you are building something meaningful or would like to discuss my projects, I would love to talk.
+
+<div align="center">
+
+<a href="mailto:mujawarswaliya483@gmail.com">
+  <img src="https://img.shields.io/badge/Email-mujawarswaliya483%40gmail.com-238636?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Swaliya" />
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/swaliya-mujawar">
+  <img src="https://img.shields.io/badge/LinkedIn-Swaliya_Mujawar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Swaliya" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/mujawarswaliya483-sys">
+  <img src="https://img.shields.io/badge/GitHub-mujawarswaliya483--sys-161b22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Swaliya" />
 </a>
 
-</p>
+<br/><br/>
 
----
-
-# 📊 GitHub Analytics
-
-<div align="center">
-
-<img
-src="https://github-readme-stats.vercel.app/api?username=mujawarswaliya483-sys&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=github_dark&rank_icon=github"
-width="49%"
-alt="GitHub Statistics"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=mujawarswaliya483-sys&layout=compact&langs_count=8&hide_border=true&theme=github_dark"
-width="49%"
-alt="Top Languages"
-/>
+<sub>Crafted with intentionality, clean markup, and genuine enthusiasm for building software.</sub>
 
 </div>
-
-<br/>
-
----
-
-# 🔥 Contribution Streak
-
-<div align="center">
-
-<img
-src="https://streak-stats.demolab.com/?user=mujawarswaliya483-sys&theme=github-dark&hide_border=true"
-width="70%"
-alt="GitHub Contribution Streak"
-/>
-
-</div>
-
-<br/>
-
----
-
-# 📈 Contribution Activity
-
-<div align="center">
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=mujawarswaliya483-sys&bg_color=0D1117&color=FFFFFF&line=6C63FF&point=FFFFFF&area=true&hide_border=true"
-width="100%"
-alt="GitHub Contribution Activity Graph"
-/>
-
-</div>
-
-<br/>
-
----
-
-# 🏆 GitHub Achievements
-
-<div align="center">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=mujawarswaliya483-sys&theme=darkhub&no-frame=true&no-bg=true&row=1&column=6"
-width="100%"
-alt="GitHub Achievements"
-/>
-
-</div>
-
-<br/>
-
----
-
-# 📌 What I Want To Build
-
-I don't want to stop at tutorial projects.
-
-My goal is to gradually build projects that demonstrate:
-
-```text
-                    💡 IDEA
-                      │
-                      ▼
-                🧠 RESEARCH
-                      │
-                      ▼
-              🎨 DESIGN / UI
-                      │
-                      ▼
-             💻 DEVELOPMENT
-                      │
-                      ▼
-             🧪 TESTING / DEBUG
-                      │
-                      ▼
-                🚀 DEPLOY
-                      │
-                      ▼
-              🌍 REAL USERS -->
