@@ -1,26 +1,44 @@
 <svg
   xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 800 240"
+  viewBox="0 0 920 280"
   width="100%"
-  height="auto"
+  height="280"
   role="img"
-  aria-label="3D Wireframe and Interactive Spatial Web Visualization"
+  aria-label="3D Web Development Pipeline and Spatial Computing Architecture — M_Swaliya"
 >
   <defs>
-    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="viewportCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080B12"/>
-      <stop offset="50%" stop-color="#111827"/>
-      <stop offset="100%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
 
-    <linearGradient id="neonCyanViolet" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="50%" stop-color="#22D3EE"/>
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Pipeline Laser Gradient -->
+    <linearGradient id="pipelineBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="33%" stop-color="#8B5CF6"/>
+      <stop offset="66%" stop-color="#22D3EE"/>
       <stop offset="100%" stop-color="#39D98A"/>
     </linearGradient>
 
-    <filter id="meshGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <!-- Glowing Filters -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -29,75 +47,235 @@
   </defs>
 
   <style>
-    .mono { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 11px; font-weight: 700; }
-    .label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #F3F4F6; }
-    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 11px; fill: #9CA3AF; }
+    .mono-title { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 11px; font-weight: 700; letter-spacing: 1.5px; }
+    .mono-sub { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 9.5px; font-weight: 600; fill: #6B7280; letter-spacing: 0.5px; }
+    .stage-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 12px; font-weight: 700; fill: #F3F4F6; }
+    .stage-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 10px; fill: #9CA3AF; }
+    .hud-stat { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 9.5px; font-weight: 600; fill: #9CA3AF; }
+    .hud-val { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 9.5px; font-weight: 700; }
   </style>
 
-  <!-- Container -->
-  <rect width="800" height="240" rx="14" fill="url(#gridGrad)" stroke="#1F2937" stroke-width="1.5"/>
+  <!-- Container Box -->
+  <rect width="920" height="280" rx="14" fill="url(#viewportCanvas)" stroke="#1F2937" stroke-width="1.5"/>
 
-  <!-- Left: 3D Wireframe Icosahedron Geometry with Rotation -->
-  <g transform="translate(140, 120)">
-    <!-- Ambient Orbital Rings -->
-    <ellipse cx="0" cy="0" rx="90" ry="34" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="4 6" opacity="0.4">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="0" cy="0" rx="80" ry="70" fill="none" stroke="#22D3EE" stroke-width="0.8" stroke-dasharray="3 7" opacity="0.3">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <!-- Wireframe 3D Polyhedron Faces & Edges -->
-    <g filter="url(#meshGlow)">
-      <!-- Outer Hexagon Skeleton -->
-      <polygon points="0,-65 56,-32 56,32 0,65 -56,32 -56,-32" fill="none" stroke="#8B5CF6" stroke-width="1.5"/>
-      <!-- Inner Vertex Triangles -->
-      <polygon points="0,-65 0,35 -56,-32" fill="#8B5CF6" fill-opacity="0.08" stroke="#22D3EE" stroke-width="1.2"/>
-      <polygon points="0,-65 56,-32 0,35" fill="#22D3EE" fill-opacity="0.06" stroke="#22D3EE" stroke-width="1.2"/>
-      <polygon points="-56,-32 -56,32 0,35" fill="#39D98A" fill-opacity="0.05" stroke="#8B5CF6" stroke-width="1.2"/>
-      <polygon points="56,-32 56,32 0,35" fill="#8B5CF6" fill-opacity="0.08" stroke="#39D98A" stroke-width="1.2"/>
-      <polygon points="0,65 -56,32 0,35" fill="#22D3EE" fill-opacity="0.07" stroke="#22D3EE" stroke-width="1.2"/>
-      <polygon points="0,65 56,32 0,35" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-width="1.2"/>
-
-      <!-- Glowing Vertices -->
-      <circle cx="0" cy="-65" r="3.5" fill="#22D3EE"/>
-      <circle cx="56" cy="-32" r="3.5" fill="#8B5CF6"/>
-      <circle cx="56" cy="32" r="3.5" fill="#22D3EE"/>
-      <circle cx="0" cy="65" r="3.5" fill="#39D98A"/>
-      <circle cx="-56" cy="32" r="3.5" fill="#8B5CF6"/>
-      <circle cx="-56" cy="-32" r="3.5" fill="#22D3EE"/>
-      <circle cx="0" cy="35" r="4.5" fill="#F3F4F6"/>
-    </g>
-
-    <!-- Animated Light Ray Sweep -->
-    <line x1="-70" y1="0" x2="70" y2="0" stroke="url(#neonCyanViolet)" stroke-width="1.5" opacity="0.7">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
-    </line>
+  <!-- Top Header HUD -->
+  <g transform="translate(30, 26)">
+    <circle cx="0" cy="0" r="4.5" fill="#22D3EE" filter="url(#neonGlow)"/>
+    <text x="14" y="4" class="mono-title" fill="#22D3EE">3D WEB DEVELOPMENT // INTERACTIVE SPATIAL COMPUTING PIPELINE</text>
+    <text x="860" y="4" class="mono-sub" text-anchor="end" fill="#8B5CF6">BLENDER ➔ GLTF ➔ THREE.JS ➔ REACT 19</text>
   </g>
 
-  <!-- Right: 3D Web Core Pillars & Roadmap -->
-  <g transform="translate(280, 36)">
-    <rect x="0" y="0" width="480" height="168" rx="10" fill="#0D1117" stroke="#1F2937" stroke-width="1"/>
+  <!-- Left: Interactive 3D Web Viewport Simulation -->
+  <g transform="translate(30, 44)">
+    <!-- Viewport Screen Frame -->
+    <rect width="330" height="182" rx="10" fill="#070A0F" stroke="#1F2937" stroke-width="1.2"/>
 
-    <!-- Pillar 1: Three.js & WebGL -->
-    <g transform="translate(24, 26)">
-      <circle cx="10" cy="10" r="6" fill="#8B5CF6"/>
-      <text x="26" y="14" class="label">Three.js &amp; WebGL Rendering</text>
-      <text x="26" y="32" class="sub">Scene graphs, camera controls, custom shaders, and lighting pipelines.</text>
+    <!-- Viewport Corner Tech Brackets -->
+    <path d="M 10 24 L 10 10 L 24 10" fill="none" stroke="#22D3EE" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 320 24 L 320 10 L 306 10" fill="none" stroke="#22D3EE" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 10 158 L 10 172 L 24 172" fill="none" stroke="#8B5CF6" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 320 158 L 320 172 L 306 172" fill="none" stroke="#8B5CF6" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Perspective 3D Grid Floor (Ground Plane) -->
+    <g opacity="0.28" stroke="#22D3EE" stroke-width="0.75">
+      <!-- Horizon -->
+      <line x1="20" y1="120" x2="310" y2="120" stroke="#8B5CF6" stroke-width="1"/>
+      <!-- Perspective lines converging to center horizon (165, 120) -->
+      <line x1="165" y1="120" x2="30" y2="175"/>
+      <line x1="165" y1="120" x2="75" y2="175"/>
+      <line x1="165" y1="120" x2="120" y2="175"/>
+      <line x1="165" y1="120" x2="165" y2="175"/>
+      <line x1="165" y1="120" x2="210" y2="175"/>
+      <line x1="165" y1="120" x2="255" y2="175"/>
+      <line x1="165" y1="120" x2="300" y2="175"/>
+      <!-- Transverse depth grid lines -->
+      <line x1="125" y1="128" x2="205" y2="128"/>
+      <line x1="95" y1="138" x2="235" y2="138"/>
+      <line x1="65" y1="152" x2="265" y2="152"/>
+      <line x1="30" y1="172" x2="300" y2="172"/>
     </g>
 
-    <!-- Pillar 2: Blender & Modeling -->
-    <g transform="translate(24, 76)">
-      <circle cx="10" cy="10" r="6" fill="#22D3EE"/>
-      <text x="26" y="14" class="label">Blender 3D Modeling &amp; Low-Poly Assets</text>
-      <text x="26" y="32" class="sub">Asset creation, lightweight geometry optimization, and texture baking.</text>
+    <!-- Animated Horizontal Laser Scanner Sweep -->
+    <line x1="20" y1="120" x2="310" y2="120" stroke="#22D3EE" stroke-width="1.2" opacity="0.6">
+      <animate attributeName="y1" values="120;172;120" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="120;172;120" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- Central Isometric 3D Polyhedron / Floating Geometry (Center: 165, 78) -->
+    <g transform="translate(165, 78)">
+      <!-- Orbital Ring 1 (X/Y Plane) -->
+      <ellipse cx="0" cy="0" rx="66" ry="24" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-dasharray="4 6" opacity="0.65">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <!-- Orbital Ring 2 (Tilted Ring) -->
+      <ellipse cx="0" cy="0" rx="58" ry="46" fill="none" stroke="#22D3EE" stroke-width="0.8" stroke-dasharray="3 7" opacity="0.5">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+
+      <!-- Floating Isometric Wireframe Cube and Octahedron Core -->
+      <g filter="url(#neonGlow)">
+        <!-- Top Face (Isometric Quad) -->
+        <polygon points="0,-42 38,-21 0,0 -38,-21" fill="#8B5CF6" fill-opacity="0.12" stroke="#8B5CF6" stroke-width="1.4">
+          <animate attributeName="fill-opacity" values="0.12;0.25;0.12" dur="3s" repeatCount="indefinite"/>
+        </polygon>
+        <!-- Left Face (Isometric Quad) -->
+        <polygon points="-38,-21 0,0 0,42 -38,21" fill="#22D3EE" fill-opacity="0.10" stroke="#22D3EE" stroke-width="1.4">
+          <animate attributeName="fill-opacity" values="0.10;0.22;0.10" dur="3s" begin="1s" repeatCount="indefinite"/>
+        </polygon>
+        <!-- Right Face (Isometric Quad) -->
+        <polygon points="0,0 38,-21 38,21 0,42" fill="#39D98A" fill-opacity="0.08" stroke="#39D98A" stroke-width="1.4">
+          <animate attributeName="fill-opacity" values="0.08;0.20;0.08" dur="3s" begin="2s" repeatCount="indefinite"/>
+        </polygon>
+
+        <!-- Internal Octahedron Wireframe Edges (Cross-Chassis Diagonals) -->
+        <line x1="0" y1="-42" x2="0" y2="42" stroke="#F3F4F6" stroke-width="0.8" stroke-dasharray="2 3" opacity="0.6"/>
+        <line x1="-38" y1="-21" x2="38" y2="21" stroke="#F3F4F6" stroke-width="0.8" stroke-dasharray="2 3" opacity="0.6"/>
+        <line x1="38" y1="-21" x2="-38" y2="21" stroke="#F3F4F6" stroke-width="0.8" stroke-dasharray="2 3" opacity="0.6"/>
+
+        <!-- Glowing Wireframe Vertices -->
+        <circle cx="0" cy="-42" r="3" fill="#8B5CF6"/>
+        <circle cx="38" cy="-21" r="3" fill="#8B5CF6"/>
+        <circle cx="38" cy="21" r="3" fill="#39D98A"/>
+        <circle cx="0" cy="42" r="3" fill="#22D3EE"/>
+        <circle cx="-38" cy="21" r="3" fill="#22D3EE"/>
+        <circle cx="-38" cy="-21" r="3" fill="#8B5CF6"/>
+        <circle cx="0" cy="0" r="4" fill="#FFFFFF"/>
+      </g>
+
+      <!-- Center Pulsing Core -->
+      <circle cx="0" cy="0" r="3" fill="#22D3EE">
+        <animate attributeName="r" values="2;4.5;2" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
     </g>
 
-    <!-- Pillar 3: Interactive Experiences -->
-    <g transform="translate(24, 126)">
-      <circle cx="10" cy="10" r="6" fill="#39D98A"/>
-      <text x="26" y="14" class="label">Interactive Spatial Exploration (DKTEWorld)</text>
-      <text x="26" y="32" class="sub">Bridging React web applications with real-time 3D campus navigation.</text>
+    <!-- Viewport HUD Overlay Readouts -->
+    <g transform="translate(14, 22)">
+      <text x="0" y="0" class="mono-sub" fill="#22D3EE">VIEWPORT // CAM: ORBIT</text>
+      <text x="0" y="12" class="mono-sub" fill="#6B7280">FPS: <tspan fill="#39D98A">60.0</tspan> • MS: <tspan fill="#39D98A">16.6</tspan></text>
+    </g>
+    <g transform="translate(230, 22)">
+      <text x="85" y="0" class="mono-sub" fill="#8B5CF6" text-anchor="end">DRACO: COMPRESSED</text>
+      <text x="85" y="12" class="mono-sub" fill="#6B7280" text-anchor="end">VERTS: <tspan fill="#F3F4F6">1,420</tspan></text>
+    </g>
+
+    <!-- 3D Coordinate Axis Gizmo (X: Red, Y: Green, Z: Blue) in bottom-left corner -->
+    <g transform="translate(32, 155)">
+      <line x1="0" y1="0" x2="16" y2="6" stroke="#F43F5E" stroke-width="1.8"/>
+      <text x="19" y="8" font-family="monospace" font-size="8" fill="#F43F5E" font-weight="bold">X</text>
+      <line x1="0" y1="0" x2="0" y2="-16" stroke="#39D98A" stroke-width="1.8"/>
+      <text x="-4" y="-19" font-family="monospace" font-size="8" fill="#39D98A" font-weight="bold">Y</text>
+      <line x1="0" y1="0" x2="-14" y2="7" stroke="#38BDF8" stroke-width="1.8"/>
+      <text x="-21" y="9" font-family="monospace" font-size="8" fill="#38BDF8" font-weight="bold">Z</text>
+    </g>
+  </g>
+
+  <!-- Right: 4-Stage Creative 3D Engineering Pipeline -->
+  <g transform="translate(385, 44)">
+
+    <!-- Interconnecting Laser Cable connecting Stage 1 ➔ Stage 2 ➔ Stage 3 ➔ Stage 4 -->
+    <path d="M 120 40 L 255 40 L 255 88 L 380 88" fill="none" stroke="url(#pipelineBeam)" stroke-width="2" stroke-dasharray="8 6" opacity="0.6">
+      <animate attributeName="stroke-dashoffset" values="84;0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 120 130 L 255 130 L 255 88 L 380 88" fill="none" stroke="url(#pipelineBeam)" stroke-width="2" stroke-dasharray="8 6" opacity="0.6">
+      <animate attributeName="stroke-dashoffset" values="84;0" dur="2.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- ======================================================= -->
+    <!-- STAGE 1: Blender 3D Modeling (Top Left Card)            -->
+    <!-- ======================================================= -->
+    <g transform="translate(0, 0)">
+      <rect width="240" height="82" rx="10" fill="url(#cardBg)" stroke="#EC4899" stroke-width="1.2" stroke-opacity="0.8"/>
+      <circle cx="24" cy="24" r="13" fill="#831843" stroke="#EC4899" stroke-width="1"/>
+      <text x="24" y="29" text-anchor="middle" font-size="13">🎨</text>
+
+      <text x="46" y="22" class="stage-title" fill="#F472B6">1. Blender 3D Modeling</text>
+      <text x="46" y="36" class="mono-sub" fill="#EC4899">ASSET CREATION &amp; RIGGING</text>
+
+      <text x="14" y="56" class="stage-desc">Low-poly isometric meshes, clean quad</text>
+      <text x="14" y="70" class="stage-desc">topology, UV unwrapping &amp; texture baking.</text>
+
+      <!-- Connecting Node -->
+      <circle cx="240" cy="41" r="4" fill="#EC4899" filter="url(#subtleGlow)"/>
+    </g>
+
+    <!-- ======================================================= -->
+    <!-- STAGE 2: glTF 2.0 and Draco (Top Right Card)              -->
+    <!-- ======================================================= -->
+    <g transform="translate(265, 0)">
+      <rect width="240" height="82" rx="10" fill="url(#cardBg)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.8"/>
+      <circle cx="24" cy="24" r="13" fill="#2E1065" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="24" y="29" text-anchor="middle" font-size="13">📦</text>
+
+      <text x="46" y="22" class="stage-title" fill="#C084FC">2. glTF / GLB Optimization</text>
+      <text x="46" y="36" class="mono-sub" fill="#A855F7">LIGHTWEIGHT ASSET DELIVERY</text>
+
+      <text x="14" y="56" class="stage-desc">Draco geometry compression, WebP textures</text>
+      <text x="14" y="70" class="stage-desc">and sub-2MB web-ready asset budgets.</text>
+
+      <!-- Connecting Node -->
+      <circle cx="0" cy="41" r="4" fill="#8B5CF6" filter="url(#subtleGlow)"/>
+    </g>
+
+    <!-- ======================================================= -->
+    <!-- STAGE 3: Three.js and WebGL (Bottom Left Card)            -->
+    <!-- ======================================================= -->
+    <g transform="translate(0, 100)">
+      <rect width="240" height="82" rx="10" fill="url(#cardBg)" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.8"/>
+      <circle cx="24" cy="24" r="13" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+      <text x="24" y="29" text-anchor="middle" font-size="13">⚡</text>
+
+      <text x="46" y="22" class="stage-title" fill="#67E8F9">3. Three.js &amp; WebGL Engine</text>
+      <text x="46" y="36" class="mono-sub" fill="#22D3EE">SHADERS, CAMERAS &amp; SCENE</text>
+
+      <text x="14" y="56" class="stage-desc">Scene graphs, ambient lighting, OrbitControls</text>
+      <text x="14" y="70" class="stage-desc">and custom GLSL holographic ripple shaders.</text>
+
+      <!-- Connecting Node -->
+      <circle cx="240" cy="41" r="4" fill="#22D3EE" filter="url(#subtleGlow)"/>
+    </g>
+
+    <!-- ======================================================= -->
+    <!-- STAGE 4: DKTEWorld and Spatial UI (Bottom Right Card)     -->
+    <!-- ======================================================= -->
+    <g transform="translate(265, 100)">
+      <rect width="240" height="82" rx="10" fill="url(#cardBg)" stroke="#39D98A" stroke-width="1.2" stroke-opacity="0.8"/>
+      <circle cx="24" cy="24" r="13" fill="#064E3B" stroke="#39D98A" stroke-width="1"/>
+      <text x="24" y="29" text-anchor="middle" font-size="13">🏛️</text>
+
+      <text x="46" y="22" class="stage-title" fill="#6EE7B7">4. DKTEWorld &amp; Spatial Web</text>
+      <text x="46" y="36" class="mono-sub" fill="#39D98A">INTERACTIVE CAMPUS TWIN</text>
+
+      <text x="14" y="56" class="stage-desc">Bridging React 19 UI with real-time 3D</text>
+      <text x="14" y="70" class="stage-desc">campus map navigation and spatial UI events.</text>
+
+      <!-- Connecting Node -->
+      <circle cx="0" cy="41" r="4" fill="#39D98A" filter="url(#subtleGlow)"/>
+    </g>
+  </g>
+
+  <!-- Bottom Telemetry Status Strip -->
+  <g transform="translate(30, 244)">
+    <rect width="860" height="26" rx="6" fill="#090D14" stroke="#1F2937" stroke-width="1"/>
+
+    <!-- Badge 1: WebGL Engine -->
+    <g transform="translate(16, 17)">
+      <circle cx="0" cy="-3.5" r="3" fill="#39D98A"/>
+      <text x="8" y="0" class="hud-stat">PIPELINE: <tspan class="hud-val" fill="#F3F4F6">Blender ➔ glTF ➔ Three.js ➔ React 19</tspan></text>
+    </g>
+
+    <!-- Badge 2: Performance Target -->
+    <g transform="translate(360, 17)">
+      <circle cx="0" cy="-3.5" r="3" fill="#22D3EE"/>
+      <text x="8" y="0" class="hud-stat">PERF BUDGET: <tspan class="hud-val" fill="#22D3EE">60 FPS Locked (16.6ms frame)</tspan></text>
+    </g>
+
+    <!-- Badge 3: Active RandD -->
+    <g transform="translate(640, 17)">
+      <circle cx="0" cy="-3.5" r="3" fill="#C084FC"/>
+      <text x="8" y="0" class="hud-stat">FLAGSHIP 3D R&amp;D: <tspan class="hud-val" fill="#C084FC">DKTEWorld Spatial Campus</tspan></text>
     </g>
   </g>
 </svg>
