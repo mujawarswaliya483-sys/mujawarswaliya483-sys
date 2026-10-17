@@ -27,7 +27,6 @@ function fetchContributions(username) {
         resolve({ days, totalContributions });
       });
     }).on('error', () => {
-      // Fallback to cache if offline
       if (fs.existsSync('contributions-cache.json')) {
         resolve(JSON.parse(fs.readFileSync('contributions-cache.json')));
       } else {
@@ -55,13 +54,11 @@ function buildAuroraCircuitSvg(data) {
   const gap = 3.5;
   const step = cellSize + gap;
 
-  // GitHub contribution table has 7 rows (Sun=0 to Sat=6) and 53 columns (weeks 0 to 52)
-  // In the HTML array, days are grouped by row (first 53 are Sundays, next 53 are Mondays, etc.)
   let cellsXml = '';
   let activeNodesXml = '';
   let activeCount = 0;
 
-  // Month labels tracking
+  // Month labels
   const monthLabels = [
     { name: 'Nov', col: 3 },
     { name: 'Dec', col: 7 },
@@ -84,10 +81,9 @@ function buildAuroraCircuitSvg(data) {
   });
 
   // Render all 371 real contribution cells
-  // We determine week and dayOfWeek
   days.forEach((day, index) => {
-    const dayOfWeek = Math.floor(index / 53); // 0 = Sun, 1 = Mon ... 6 = Sat
-    const week = index % 53; // 0 to 52
+    const dayOfWeek = Math.floor(index / 53);
+    const week = index % 53;
 
     const x = startX + week * step;
     const y = startY + dayOfWeek * step;
@@ -105,7 +101,6 @@ function buildAuroraCircuitSvg(data) {
     cellsXml += `    <title>${day.count > 0 ? day.count : 'No'} contribution${day.count === 1 ? '' : 's'} on ${day.date}</title>\n`;
     cellsXml += `  </rect>\n`;
 
-    // Add subtle animated halo on peak days (level 3 & 4)
     if (isPeak) {
       activeNodesXml += `  <circle cx="${x + cellSize / 2}" cy="${y + cellSize / 2}" r="7" fill="none" stroke="#22D3EE" stroke-width="0.8" opacity="0.6">\n`;
       activeNodesXml += `    <animate attributeName="r" values="6;9;6" dur="3s" repeatCount="indefinite"/>\n`;
@@ -114,8 +109,10 @@ function buildAuroraCircuitSvg(data) {
     }
   });
 
+  // Notice: Strict XML compliant, no unescaped ampersands, no &nbsp;!
   const svg = `<svg
   xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
   viewBox="0 0 920 230"
   width="100%"
   height="auto"
@@ -145,15 +142,11 @@ function buildAuroraCircuitSvg(data) {
 
     <!-- Glow Filters -->
     <filter id="circuitGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
-    </filter>
-
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2"/>
     </filter>
   </defs>
 
@@ -191,23 +184,28 @@ ${activeNodesXml}  </g>
 
   <!-- ===================================================== -->
   <!-- AURORA CIRCUIT ENERGY TRAILS (OVERLAY ANIMATION)      -->
-  <!-- Moving cyan & violet paths weaving around real cells  -->
   <!-- ===================================================== -->
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- Circuit Trail Alpha (Cyan) -->
+    <!-- Trail Alpha (Cyan flowing wave) -->
     <path id="auroraPathAlpha"
       d="M 65 95 L 210 95 L 240 125 L 380 125 L 420 80 L 610 80 L 650 140 L 780 140 L 820 110 L 860 110"
-      stroke="#22D3EE" stroke-width="1.4" stroke-dasharray="4 6" opacity="0.45"/>
+      stroke="#22D3EE" stroke-width="1.6" stroke-dasharray="16 20" stroke-opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="360;0" dur="6s" repeatCount="indefinite"/>
+    </path>
 
-    <!-- Circuit Trail Beta (Violet) -->
+    <!-- Trail Beta (Violet flowing wave) -->
     <path id="auroraPathBeta"
       d="M 860 155 L 720 155 L 680 95 L 520 95 L 480 155 L 310 155 L 260 80 L 130 80 L 65 140"
-      stroke="#8B5CF6" stroke-width="1.4" stroke-dasharray="3 5" opacity="0.45"/>
+      stroke="#8B5CF6" stroke-width="1.6" stroke-dasharray="14 18" stroke-opacity="0.8">
+      <animate attributeName="stroke-dashoffset" values="0;360" dur="7.5s" repeatCount="indefinite"/>
+    </path>
 
-    <!-- Circuit Trail Gamma (Emerald Pulse connecting active clusters in Aug-Oct) -->
+    <!-- Trail Gamma (Emerald cluster connection) -->
     <path id="auroraPathGamma"
       d="M 620 65 L 680 110 L 720 80 L 760 140 L 800 95 L 840 125"
-      stroke="#39D98A" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.5"/>
+      stroke="#39D98A" stroke-width="1.5" stroke-dasharray="10 14" stroke-opacity="0.85">
+      <animate attributeName="stroke-dashoffset" values="240;0" dur="5s" repeatCount="indefinite"/>
+    </path>
   </g>
 
   <!-- Central Nexus Portal at active coordinate cluster (Week 43, Day 2) -->
@@ -221,34 +219,29 @@ ${activeNodesXml}  </g>
     </circle>
   </g>
 
-  <!-- Luminous Energy Pulses traveling along trails -->
-  <circle r="4" fill="#22D3EE" filter="url(#circuitGlow)">
-    <animateMotion dur="7s" repeatCount="indefinite">
-      <mpath href="#auroraPathAlpha"/>
-    </animateMotion>
+  <!-- Moving Pulse Orbs along coordinate paths -->
+  <circle cx="65" cy="95" r="4.5" fill="#22D3EE" filter="url(#circuitGlow)">
+    <animate attributeName="cx" values="65;210;240;380;420;610;650;780;820;860" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="95;95;125;125;80;80;140;140;110;110" dur="8s" repeatCount="indefinite"/>
   </circle>
 
-  <circle r="3.5" fill="#C084FC" filter="url(#circuitGlow)">
-    <animateMotion dur="8.5s" repeatCount="indefinite">
-      <mpath href="#auroraPathBeta"/>
-    </animateMotion>
+  <circle cx="860" cy="155" r="4" fill="#C084FC" filter="url(#circuitGlow)">
+    <animate attributeName="cx" values="860;720;680;520;480;310;260;130;65" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="155;155;95;95;155;155;80;80;140" dur="9s" repeatCount="indefinite"/>
   </circle>
 
-  <circle r="3.5" fill="#39D98A" filter="url(#circuitGlow)">
-    <animateMotion dur="5.5s" repeatCount="indefinite">
-      <mpath href="#auroraPathGamma"/>
-    </animateMotion>
+  <circle cx="620" cy="65" r="3.5" fill="#39D98A" filter="url(#circuitGlow)">
+    <animate attributeName="cx" values="620;680;720;760;800;840;620" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="65;110;80;140;95;125;65" dur="6s" repeatCount="indefinite"/>
   </circle>
 
   <!-- ===================================================== -->
-  <!-- FOOTER STATS & LEGEND                                 -->
+  <!-- FOOTER STATS &amp; LEGEND                             -->
   <!-- ===================================================== -->
   <g transform="translate(65, 196)">
     <!-- Metrics summary -->
     <text x="0" y="10" class="telemetry-meta">
-      Contributions (Past Year): <tspan class="telemetry-val">${totalContributions}</tspan> &nbsp;•&nbsp; 
-      Active Days: <tspan class="telemetry-val">${activeCount}</tspan> &nbsp;•&nbsp; 
-      Range: <tspan class="telemetry-meta">Oct 2025 – Oct 2026</tspan>
+      Contributions (Past Year): <tspan class="telemetry-val">${totalContributions}</tspan>   •   Active Days: <tspan class="telemetry-val">${activeCount}</tspan>   •   Range: <tspan class="telemetry-meta">Oct 2025 – Oct 2026</tspan>
     </text>
 
     <!-- Legend -->
@@ -265,8 +258,7 @@ ${activeNodesXml}  </g>
 </svg>`;
 
   fs.writeFileSync('assets/aurora-circuit.svg', svg);
-  console.log('Successfully generated assets/aurora-circuit.svg with REAL GitHub contribution data!');
-  console.log(`Total days rendered: ${days.length}, Active days: ${activeCount}, Total contributions: ${totalContributions}`);
+  console.log('Successfully generated clean, XML-compliant assets/aurora-circuit.svg!');
 }
 
 (async () => {

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 110" width="100%" height="auto" role="img" aria-label="Animated Learning Roadmap Progression">
+  <defs>
+    <linearGradient id="roadmapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="50%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="roadmapBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="35%" stop-color="#8B5CF6"/>
+      <stop offset="70%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#39D98A"/>
+    </linearGradient>
+
+    <filter id="roadGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .node-text { font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: 11px; font-weight: 700; }
+    .node-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif; font-size: 9.5px; fill: #9CA3AF; }
+  </style>
+
+  <!-- Container -->
+  <rect width="880" height="110" rx="12" fill="url(#roadmapBg)" stroke="#1F2937" stroke-width="1.4"/>
+
+  <!-- Connecting Roadmap Guide Line -->
+  <line x1="120" y1="55" x2="760" y2="55" stroke="url(#roadmapBeam)" stroke-width="2.5" stroke-dasharray="8 6">
+    <animate attributeName="stroke-dashoffset" values="140;0" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Moving Laser Energy Pulses along the line -->
+  <circle cx="120" cy="55" r="4.5" fill="#22D3EE" filter="url(#roadGlow)">
+    <animate attributeName="cx" values="120;330;540;760;120" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="760" cy="55" r="3.5" fill="#EC4899" filter="url(#roadGlow)">
+    <animate attributeName="cx" values="760;540;330;120;760" dur="7s" begin="-3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================================================== -->
+  <!-- NODE 1: C++ DSA (Pink / Magenta)                      -->
+  <!-- ===================================================== -->
+  <g transform="translate(120, 55)">
+    <rect x="-85" y="-34" width="170" height="68" rx="10" fill="#161B22" stroke="#EC4899" stroke-width="1.4" filter="url(#roadGlow)">
+      <animate attributeName="stroke" values="#EC4899;#F43F5E;#EC4899" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="-62" cy="0" r="14" fill="#2E1065" stroke="#EC4899" stroke-width="1"/>
+    <text x="-62" y="5" text-anchor="middle" font-size="14">🧠</text>
+    <text x="-40" y="-5" class="node-text" fill="#F43F5E">C++ DSA</text>
+    <text x="-40" y="14" class="node-sub">Algorithmic Core</text>
+  </g>
+
+  <!-- Arrow Indicator 1 -->
+  <g transform="translate(225, 55)">
+    <text x="0" y="4" class="node-text" fill="#8B5CF6">──►</text>
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- NODE 2: FULL-STACK WEB (Electric Violet)              -->
+  <!-- ===================================================== -->
+  <g transform="translate(330, 55)">
+    <rect x="-85" y="-34" width="170" height="68" rx="10" fill="#161B22" stroke="#8B5CF6" stroke-width="1.4" filter="url(#roadGlow)">
+      <animate attributeName="stroke" values="#8B5CF6;#C084FC;#8B5CF6" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="-62" cy="0" r="14" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="1"/>
+    <text x="-62" y="5" text-anchor="middle" font-size="14">⚛️</text>
+    <text x="-40" y="-5" class="node-text" fill="#C084FC">FULL-STACK</text>
+    <text x="-40" y="14" class="node-sub">React 19 &amp; APIs</text>
+  </g>
+
+  <!-- Arrow Indicator 2 -->
+  <g transform="translate(435, 55)">
+    <text x="0" y="4" class="node-text" fill="#22D3EE">──►</text>
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- NODE 3: DOCKER / K8S (Luminous Cyan)                  -->
+  <!-- ===================================================== -->
+  <g transform="translate(540, 55)">
+    <rect x="-85" y="-34" width="170" height="68" rx="10" fill="#161B22" stroke="#22D3EE" stroke-width="1.4" filter="url(#roadGlow)">
+      <animate attributeName="stroke" values="#22D3EE;#38BDF8;#22D3EE" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="-62" cy="0" r="14" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+    <text x="-62" y="5" text-anchor="middle" font-size="14">🐳</text>
+    <text x="-40" y="-5" class="node-text" fill="#38BDF8">DOCKER / K8S</text>
+    <text x="-40" y="14" class="node-sub">DevOps &amp; CI/CD</text>
+  </g>
+
+  <!-- Arrow Indicator 3 -->
+  <g transform="translate(645, 55)">
+    <text x="0" y="4" class="node-text" fill="#39D98A">──►</text>
+  </g>
+
+  <!-- ===================================================== -->
+  <!-- NODE 4: 3D WEB & THREE.JS (Emerald / Spatial)        -->
+  <!-- ===================================================== -->
+  <g transform="translate(760, 55)">
+    <rect x="-85" y="-34" width="170" height="68" rx="10" fill="#161B22" stroke="#39D98A" stroke-width="1.4" filter="url(#roadGlow)">
+      <animate attributeName="stroke" values="#39D98A;#34D399;#39D98A" dur="3s" begin="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="-62" cy="0" r="14" fill="#064E3B" stroke="#39D98A" stroke-width="1"/>
+    <text x="-62" y="5" text-anchor="middle" font-size="14">🎨</text>
+    <text x="-40" y="-5" class="node-text" fill="#39D98A">3D WEB &amp; THREE</text>
+    <text x="-40" y="14" class="node-sub">Interactive Spatial</text>
+  </g>
+</svg>

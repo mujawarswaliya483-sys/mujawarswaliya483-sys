@@ -53,7 +53,7 @@
 
 <br/>
 
-<img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 
 </div>
 
@@ -79,7 +79,7 @@ My goal is not merely to build standard web dashboards, but to create **memorabl
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🎨 Exploring the 3D Web & Creative Computing
@@ -124,7 +124,7 @@ Interactive 3D websites represent the future of web interfaces. I am actively co
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🛠️ Technical Stack & Capabilities
@@ -192,7 +192,7 @@ I prioritize transparency: distinguishing daily working tools from technologies 
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🚀 Featured Projects
@@ -333,7 +333,7 @@ Focus: Empathic UX & State Design
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🚀 Upcoming Projects &amp; R&amp;D Pipeline
@@ -397,7 +397,7 @@ Focus: Empathic UX & State Design
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🌌 My GitHub Contributions — Aurora Circuit
@@ -415,7 +415,7 @@ This visualization displays my **real, verified GitHub contribution history** re
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🏆 Hackathons &amp; Achievements
@@ -459,7 +459,7 @@ Recognizing that real engineering happens when solving non-trivial problems unde
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 📜 Certifications &amp; Learning
@@ -474,14 +474,14 @@ Maintaining an honest, verifiable record of academic studies, professional cours
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🎯 Current Focus &amp; Learning Roadmap
 
-```text
-       🧠 C++ DSA ──► ⚛️ FULL-STACK WEB ──► 🐳 DOCKER / K8S ──► 🎨 3D WEB & THREE.JS
-```
+<div align="center">
+  <img src="./assets/learning-roadmap.svg" width="100%" alt="Animated Learning Roadmap Progression" />
+</div>
 
 1. **Data Structures &amp; Algorithms using C++:** Daily disciplined problem solving focusing on memory management, pointers, recursion, trees, graphs, dynamic programming, and complexity analysis.
 2. **Interactive 3D Web &amp; Three.js:** Deepening understanding of browser WebGL rendering pipelines, scene graphs, custom `GLSL` shaders, and Blender glTF export workflows.
@@ -492,7 +492,7 @@ Maintaining an honest, verifiable record of academic studies, professional cours
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🔬 How I Build &amp; Learn
@@ -512,7 +512,7 @@ I structure my learning systematically. Every major project passes through five 
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 📊 GitHub Analytics &amp; Activity Telemetry
@@ -539,7 +539,7 @@ I structure my learning systematically. Every major project passes through five 
 <br/>
 
 <div align="center">
-  <img src="./assets/divider.svg" width="100%" alt="Section Divider" />
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Colorful Divider Line" />
 </div>
 
 ## 🤝 Let's Connect

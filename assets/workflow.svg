@@ -1,19 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="100%" height="auto" role="img" aria-label="Engineering Workflow and Methodology">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="100%" height="auto" role="img" aria-label="Animated 5-Stage Engineering and Learning Workflow">
   <defs>
     <linearGradient id="wfBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#080B12"/>
       <stop offset="50%" stop-color="#0D1117"/>
       <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
+
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#161B22"/>
       <stop offset="100%" stop-color="#0D1117"/>
     </linearGradient>
-    <linearGradient id="wfLine" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <linearGradient id="laserLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8B5CF6"/>
-      <stop offset="50%" stop-color="#22D3EE"/>
-      <stop offset="100%" stop-color="#39D98A"/>
+      <stop offset="35%" stop-color="#22D3EE"/>
+      <stop offset="70%" stop-color="#39D98A"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
     </linearGradient>
+
+    <filter id="laserGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <style>
@@ -23,63 +34,115 @@
   </style>
 
   <!-- Container -->
-  <rect width="1200" height="180" rx="14" fill="url(#wfBg)" stroke="#1F2937" stroke-width="1.5"/>
+  <rect width="1200" height="200" rx="14" fill="url(#wfBg)" stroke="#1F2937" stroke-width="1.5"/>
 
-  <!-- Connecting Backbone Line -->
-  <line x1="120" y1="88" x2="1080" y2="88" stroke="url(#wfLine)" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Top Active Status Bar -->
+  <g transform="translate(60, 20)">
+    <circle cx="0" cy="0" r="4.5" fill="#39D98A" filter="url(#laserGlow)">
+      <animate attributeName="r" values="3.5;6;3.5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="14" y="4" class="wf-mono" fill="#22D3EE" letter-spacing="2">ACTIVE ENGINEERING PIPELINE // CONTINUOUS LEARNING CYCLE</text>
+    <text x="1080" y="4" class="wf-mono" fill="#8B5CF6" text-anchor="end" letter-spacing="1">PHASED EXECUTION • LIVE</text>
+  </g>
 
-  <!-- STEP 1: Discovery -->
-  <g transform="translate(60, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.2" stroke-opacity="0.6"/>
-    <circle cx="24" cy="24" r="10" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="1"/>
+  <!-- Connecting Backbone Laser Line -->
+  <line x1="120" y1="108" x2="1080" y2="108" stroke="url(#laserLine)" stroke-width="2" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" values="180;0" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Moving Laser Energy Orb moving sequentially across all 5 stages -->
+  <circle cx="120" cy="108" r="6" fill="#22D3EE" filter="url(#laserGlow)">
+    <animate attributeName="cx" values="120;350;580;810;1040;120" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ===================================================== -->
+  <!-- 5 WORKFLOW CARDS (WITH SEQUENTIAL GLOW ANIMATIONS)   -->
+  <!-- ===================================================== -->
+
+  <!-- STEP 1: Discovery (Active 0s - 2s in 10s cycle) -->
+  <g transform="translate(60, 48)">
+    <rect width="200" height="128" rx="10" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.4">
+      <animate attributeName="stroke" values="#8B5CF6;#22D3EE;#8B5CF6;#374151;#374151;#8B5CF6" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="2;2.5;2;1.2;1.2;2" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="24" cy="24" r="10" fill="#1E1B4B" stroke="#8B5CF6" stroke-width="1.2"/>
     <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#C084FC">01</text>
     <text x="44" y="27" class="wf-mono" fill="#A78BFA">DISCOVERY</text>
     <text x="20" y="58" class="wf-title">Real Problem Context</text>
     <text x="20" y="80" class="wf-desc">Identifying real user pain points</text>
-    <text x="20" y="96" class="wf-desc">in agriculture &amp; wellbeing.</text>
+    <text x="20" y="96" class="wf-desc">in agriculture and wellbeing.</text>
+    <!-- Progress Indicator Dot -->
+    <circle cx="180" cy="24" r="3.5" fill="#8B5CF6">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- STEP 2: Architecture -->
-  <g transform="translate(290, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.6"/>
-    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+  <!-- STEP 2: Design & State (Active 2s - 4s) -->
+  <g transform="translate(290, 48)">
+    <rect width="200" height="128" rx="10" fill="url(#cardGrad)" stroke="#374151" stroke-width="1.2">
+      <animate attributeName="stroke" values="#374151;#22D3EE;#38BDF8;#22D3EE;#374151;#374151" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.2;2.5;2.5;2;1.2;1.2" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1.2"/>
     <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#22D3EE">02</text>
     <text x="44" y="27" class="wf-mono" fill="#38BDF8">DESIGN &amp; STATE</text>
     <text x="20" y="58" class="wf-title">User Flow &amp; Hierarchy</text>
     <text x="20" y="80" class="wf-desc">Mapping screen transitions, state</text>
     <text x="20" y="96" class="wf-desc">trees, and data schemas first.</text>
+    <circle cx="180" cy="24" r="3.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- STEP 3: Implementation -->
-  <g transform="translate(520, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#8B5CF6" stroke-width="1.4"/>
+  <!-- STEP 3: Engineering (Active 4s - 6s) -->
+  <g transform="translate(520, 48)">
+    <rect width="200" height="128" rx="10" fill="url(#cardGrad)" stroke="#374151" stroke-width="1.2">
+      <animate attributeName="stroke" values="#374151;#374151;#E879F9;#C084FC;#E879F9;#374151" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.2;1.2;2.5;2.5;2;1.2" dur="10s" repeatCount="indefinite"/>
+    </rect>
     <circle cx="24" cy="24" r="10" fill="#2E1065" stroke="#C084FC" stroke-width="1.2"/>
     <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#C084FC">03</text>
     <text x="44" y="27" class="wf-mono" fill="#E879F9">ENGINEERING</text>
     <text x="20" y="58" class="wf-title">Component &amp; API Build</text>
     <text x="20" y="80" class="wf-desc">Writing intentional React code</text>
     <text x="20" y="96" class="wf-desc">and resilient backend endpoints.</text>
+    <circle cx="180" cy="24" r="3.5" fill="#E879F9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- STEP 4: Debugging -->
-  <g transform="translate(750, 28)">
-    <rect width="200" height="124" rx="10" fill="url(#cardGrad)" stroke="#39D98A" stroke-width="1.2" stroke-opacity="0.6"/>
-    <circle cx="24" cy="24" r="10" fill="#064E3B" stroke="#39D98A" stroke-width="1"/>
+  <!-- STEP 4: Test & Debug (Active 6s - 8s) -->
+  <g transform="translate(750, 48)">
+    <rect width="200" height="128" rx="10" fill="url(#cardGrad)" stroke="#374151" stroke-width="1.2">
+      <animate attributeName="stroke" values="#374151;#374151;#374151;#39D98A;#34D399;#39D98A" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="1.2;1.2;1.2;2.5;2.5;2" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="24" cy="24" r="10" fill="#064E3B" stroke="#39D98A" stroke-width="1.2"/>
     <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#39D98A">04</text>
     <text x="44" y="27" class="wf-mono" fill="#34D399">TEST &amp; DEBUG</text>
     <text x="20" y="58" class="wf-title">Verifying Edge Cases</text>
     <text x="20" y="80" class="wf-desc">Breaking flows, fixing edge bugs,</text>
     <text x="20" y="96" class="wf-desc">and optimizing performance.</text>
+    <circle cx="180" cy="24" r="3.5" fill="#39D98A">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <!-- STEP 5: Knowledge -->
-  <g transform="translate(980, 28)">
-    <rect width="180" height="124" rx="10" fill="url(#cardGrad)" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.6"/>
-    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1"/>
+  <!-- STEP 5: Document (Active 8s - 10s) -->
+  <g transform="translate(980, 48)">
+    <rect width="180" height="128" rx="10" fill="url(#cardGrad)" stroke="#374151" stroke-width="1.2">
+      <animate attributeName="stroke" values="#39D98A;#374151;#374151;#374151;#22D3EE;#67E8F9" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-width" values="2;1.2;1.2;1.2;2.5;2.5" dur="10s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="24" cy="24" r="10" fill="#083344" stroke="#22D3EE" stroke-width="1.2"/>
     <text x="24" y="27" text-anchor="middle" class="wf-mono" fill="#22D3EE">05</text>
     <text x="44" y="27" class="wf-mono" fill="#67E8F9">DOCUMENT</text>
     <text x="20" y="58" class="wf-title">Notebook Synthesis</text>
     <text x="20" y="80" class="wf-desc">Explaining the code so it is</text>
     <text x="20" y="96" class="wf-desc">mastered, not just copied.</text>
+    <circle cx="160" cy="24" r="3.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="2s" repeatCount="indefinite"/>
+    </circle>
   </g>
 </svg>
