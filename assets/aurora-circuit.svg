@@ -1186,6 +1186,9 @@
   <rect x="830" y="155" width="11.5" height="11.5" rx="2.5" fill="#39D98A" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.8">
     <title>4 contributions on 2026-10-17</title>
   </rect>
+  <rect x="845" y="155" width="11.5" height="11.5" rx="2.5" fill="#161B22" stroke="#1F2937" stroke-width="0.4" stroke-opacity="0.5">
+    <title>No contributions on 2026-10-24</title>
+  </rect>
   </g>
 
   <!-- Active Nodes Halo Layer -->
